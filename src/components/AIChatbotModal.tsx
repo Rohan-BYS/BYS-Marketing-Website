@@ -6,7 +6,7 @@ import { GoogleGenerativeAI } from '@google/generative-ai';
 // Initialize Gemini
 // Keys are obfuscated to prevent simple static scraping from the client-side bundle
 const _k1 = import.meta.env.VITE_GEMINI_API_KEY;
-const _obfuscated = "A4t_HJJvccEXREnxPfuj3apK7BBZ2_DgDySazIA";
+const _obfuscated = "At4_HJJvccEXREnxPfuj3apK7BBZ2_DgDySazIA";
 const API_KEY = (_k1 && _k1.length > 5) ? _k1 : _obfuscated.split('').reverse().join('');
 const genAI = new GoogleGenerativeAI(API_KEY);
 
