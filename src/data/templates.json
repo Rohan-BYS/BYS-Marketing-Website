@@ -1,0 +1,1052 @@
+[
+  {
+    "name": "Aero",
+    "category": "Agency & Corporate",
+    "image": "https://cdn.uicore.pro/2025/07/aero.webp",
+    "demo": "https://uicore.pro/templates/aero/",
+    "speed": 96
+  },
+  {
+    "name": "Alex Reynolds",
+    "category": "Marketing & Media",
+    "image": "https://cdn.uicore.pro/2025/07/alex-reynolds.webp",
+    "demo": "https://uicore.pro/templates/alex-reynolds/",
+    "speed": 94
+  },
+  {
+    "name": "Altuva",
+    "category": "SaaS & Technology",
+    "image": "https://cdn.uicore.pro/2025/11/altuva.webp",
+    "demo": "https://uicore.pro/templates/altuva/",
+    "speed": 90
+  },
+  {
+    "name": "Apex",
+    "category": "Business & Consulting",
+    "image": "https://cdn.uicore.pro/2024/08/apex.webp",
+    "demo": "https://uicore.pro/templates/apex/",
+    "speed": 93
+  },
+  {
+    "name": "Arran",
+    "category": "Agency & Corporate",
+    "image": "https://cdn.uicore.pro/2025/07/arran.webp",
+    "demo": "https://uicore.pro/templates/arran/",
+    "speed": 90
+  },
+  {
+    "name": "Arsha",
+    "category": "Startup",
+    "image": "https://cdn.uicore.pro/2025/07/arsha.webp",
+    "demo": "https://uicore.pro/templates/arsha/",
+    "speed": 90
+  },
+  {
+    "name": "Ascend",
+    "category": "Marketing & Media",
+    "image": "https://cdn.uicore.pro/2024/05/ascend.webp",
+    "demo": "https://uicore.pro/templates/ascend/",
+    "speed": 95
+  },
+  {
+    "name": "Autocore",
+    "category": "Agency & Corporate",
+    "image": "https://cdn.uicore.pro/2025/05/autocore.webp",
+    "demo": "https://uicore.pro/templates/autocore/",
+    "speed": 92
+  },
+  {
+    "name": "Baetools",
+    "category": "Marketing & Media",
+    "image": "https://cdn.uicore.pro/2024/10/baetools.webp",
+    "demo": "https://uicore.pro/templates/baetools/",
+    "speed": 98
+  },
+  {
+    "name": "Blooxy",
+    "category": "SaaS & Technology",
+    "image": "https://cdn.uicore.pro/2024/05/blooxy.webp",
+    "demo": "https://uicore.pro/templates/blooxy/",
+    "speed": 99
+  },
+  {
+    "name": "Boltvoice",
+    "category": "Business & Consulting",
+    "image": "https://cdn.uicore.pro/2025/07/boltvoice.webp",
+    "demo": "https://uicore.pro/templates/boltvoice/",
+    "speed": 94
+  },
+  {
+    "name": "Boncap",
+    "category": "Portfolio & CV",
+    "image": "https://cdn.uicore.pro/2024/08/boncap.webp",
+    "demo": "https://uicore.pro/templates/boncap/",
+    "speed": 92
+  },
+  {
+    "name": "Bonsa",
+    "category": "SaaS & Technology",
+    "image": "https://cdn.uicore.pro/2024/05/bonsa.webp",
+    "demo": "https://uicore.pro/templates/bonsa/",
+    "speed": 93
+  },
+  {
+    "name": "Brew Bloom",
+    "category": "Startup",
+    "image": "https://cdn.uicore.pro/2025/11/brew-bloom.webp",
+    "demo": "https://uicore.pro/templates/brew-bloom/",
+    "speed": 90
+  },
+  {
+    "name": "Brightcare",
+    "category": "Agency & Corporate",
+    "image": "https://cdn.uicore.pro/2025/11/brightcare.webp",
+    "demo": "https://uicore.pro/templates/brightcare/",
+    "speed": 91
+  },
+  {
+    "name": "Caliesath",
+    "category": "Business & Consulting",
+    "image": "https://cdn.uicore.pro/2026/01/caliesath.webp",
+    "demo": "https://uicore.pro/templates/caliesath/",
+    "speed": 90
+  },
+  {
+    "name": "Campfit",
+    "category": "Startup",
+    "image": "https://cdn.uicore.pro/2025/07/campfit.webp",
+    "demo": "https://uicore.pro/templates/campfit/",
+    "speed": 94
+  },
+  {
+    "name": "Catalyst",
+    "category": "Business & Consulting",
+    "image": "https://cdn.uicore.pro/2024/05/catalyst.webp",
+    "demo": "https://uicore.pro/templates/catalyst/",
+    "speed": 90
+  },
+  {
+    "name": "Chirothe",
+    "category": "Startup",
+    "image": "https://cdn.uicore.pro/2025/11/chirothe.webp",
+    "demo": "https://uicore.pro/templates/chirothe/",
+    "speed": 97
+  },
+  {
+    "name": "Circle",
+    "category": "Marketing & Media",
+    "image": "https://cdn.uicore.pro/2024/11/circle.webp",
+    "demo": "https://uicore.pro/templates/circle/",
+    "speed": 93
+  },
+  {
+    "name": "Clamby",
+    "category": "Portfolio & CV",
+    "image": "https://cdn.uicore.pro/2025/09/clamby.webp",
+    "demo": "https://uicore.pro/templates/clamby/",
+    "speed": 97
+  },
+  {
+    "name": "Climapro",
+    "category": "SaaS & Technology",
+    "image": "https://cdn.uicore.pro/2025/11/climapro.webp",
+    "demo": "https://uicore.pro/templates/climapro/",
+    "speed": 90
+  },
+  {
+    "name": "Clustrix",
+    "category": "Agency & Corporate",
+    "image": "https://cdn.uicore.pro/2024/05/clustrix.webp",
+    "demo": "https://uicore.pro/templates/clustrix/",
+    "speed": 97
+  },
+  {
+    "name": "Concept",
+    "category": "SaaS & Technology",
+    "image": "https://cdn.uicore.pro/2025/07/concept.webp",
+    "demo": "https://uicore.pro/templates/concept/",
+    "speed": 98
+  },
+  {
+    "name": "Connect",
+    "category": "Portfolio & CV",
+    "image": "https://cdn.uicore.pro/2024/09/connect.webp",
+    "demo": "https://uicore.pro/templates/connect/",
+    "speed": 99
+  },
+  {
+    "name": "Context Ai",
+    "category": "Portfolio & CV",
+    "image": "https://cdn.uicore.pro/2024/05/context-ai.webp",
+    "demo": "https://uicore.pro/templates/context-ai/",
+    "speed": 99
+  },
+  {
+    "name": "Creacy",
+    "category": "Business & Consulting",
+    "image": "https://cdn.uicore.pro/2024/05/creacy.webp",
+    "demo": "https://uicore.pro/templates/creacy/",
+    "speed": 99
+  },
+  {
+    "name": "Datains",
+    "category": "SaaS & Technology",
+    "image": "https://cdn.uicore.pro/2024/11/datains.webp",
+    "demo": "https://uicore.pro/templates/datains/",
+    "speed": 92
+  },
+  {
+    "name": "Datarobo",
+    "category": "SaaS & Technology",
+    "image": "https://cdn.uicore.pro/2024/11/datarobo.webp",
+    "demo": "https://uicore.pro/templates/datarobo/",
+    "speed": 91
+  },
+  {
+    "name": "Datavi",
+    "category": "Portfolio & CV",
+    "image": "https://cdn.uicore.pro/2024/05/datavi.webp",
+    "demo": "https://uicore.pro/templates/datavi/",
+    "speed": 94
+  },
+  {
+    "name": "Decorum",
+    "category": "SaaS & Technology",
+    "image": "https://cdn.uicore.pro/2024/05/decorum.webp",
+    "demo": "https://uicore.pro/templates/decorum/",
+    "speed": 90
+  },
+  {
+    "name": "Diverse",
+    "category": "Agency & Corporate",
+    "image": "https://cdn.uicore.pro/2024/05/diverse.webp",
+    "demo": "https://uicore.pro/templates/diverse/",
+    "speed": 93
+  },
+  {
+    "name": "Docker",
+    "category": "Agency & Corporate",
+    "image": "https://cdn.uicore.pro/2024/05/docker.webp",
+    "demo": "https://uicore.pro/templates/docker/",
+    "speed": 98
+  },
+  {
+    "name": "Ecoride",
+    "category": "Marketing & Media",
+    "image": "https://cdn.uicore.pro/2024/05/ecoride.webp",
+    "demo": "https://uicore.pro/templates/ecoride/",
+    "speed": 99
+  },
+  {
+    "name": "Edulearn",
+    "category": "SaaS & Technology",
+    "image": "https://cdn.uicore.pro/2026/01/edulearn.webp",
+    "demo": "https://uicore.pro/templates/edulearn/",
+    "speed": 95
+  },
+  {
+    "name": "Electrician",
+    "category": "Business & Consulting",
+    "image": "https://cdn.uicore.pro/2025/11/electrician.webp",
+    "demo": "https://uicore.pro/templates/electrician/",
+    "speed": 93
+  },
+  {
+    "name": "Elipsee",
+    "category": "Startup",
+    "image": "https://cdn.uicore.pro/2025/01/elipsee.webp",
+    "demo": "https://uicore.pro/templates/elipsee/",
+    "speed": 90
+  },
+  {
+    "name": "Energy Steel",
+    "category": "Business & Consulting",
+    "image": "https://cdn.uicore.pro/2025/07/energy-steel.webp",
+    "demo": "https://uicore.pro/templates/energy-steel/",
+    "speed": 94
+  },
+  {
+    "name": "Expira",
+    "category": "Startup",
+    "image": "https://cdn.uicore.pro/2025/07/expira.webp",
+    "demo": "https://uicore.pro/templates/expira/",
+    "speed": 97
+  },
+  {
+    "name": "Finity",
+    "category": "Startup",
+    "image": "https://cdn.uicore.pro/2024/09/finity.webp",
+    "demo": "https://uicore.pro/templates/finity/",
+    "speed": 91
+  },
+  {
+    "name": "Finver",
+    "category": "Portfolio & CV",
+    "image": "https://cdn.uicore.pro/2024/09/finver.webp",
+    "demo": "https://uicore.pro/templates/finver/",
+    "speed": 97
+  },
+  {
+    "name": "Finzo",
+    "category": "Startup",
+    "image": "https://cdn.uicore.pro/2024/05/finzo.webp",
+    "demo": "https://uicore.pro/templates/finzo/",
+    "speed": 90
+  },
+  {
+    "name": "Fiscal",
+    "category": "Startup",
+    "image": "https://cdn.uicore.pro/2025/07/fiscal.webp",
+    "demo": "https://uicore.pro/templates/fiscal/",
+    "speed": 96
+  },
+  {
+    "name": "Flock",
+    "category": "Agency & Corporate",
+    "image": "https://cdn.uicore.pro/2025/07/flock.webp",
+    "demo": "https://uicore.pro/templates/flock/",
+    "speed": 94
+  },
+  {
+    "name": "Flow",
+    "category": "Startup",
+    "image": "https://cdn.uicore.pro/2024/05/flow.webp",
+    "demo": "https://uicore.pro/templates/flow/",
+    "speed": 95
+  },
+  {
+    "name": "Flux",
+    "category": "SaaS & Technology",
+    "image": "https://cdn.uicore.pro/2024/11/flux.webp",
+    "demo": "https://uicore.pro/templates/flux/",
+    "speed": 94
+  },
+  {
+    "name": "Forever",
+    "category": "Marketing & Media",
+    "image": "https://cdn.uicore.pro/2024/05/for-ever.webp",
+    "demo": "https://uicore.pro/templates/forever/",
+    "speed": 96
+  },
+  {
+    "name": "Frontier",
+    "category": "Startup",
+    "image": "https://cdn.uicore.pro/2024/05/frontier.webp",
+    "demo": "https://uicore.pro/templates/frontier/",
+    "speed": 93
+  },
+  {
+    "name": "Furnika",
+    "category": "Business & Consulting",
+    "image": "https://cdn.uicore.pro/2025/07/furnika.webp",
+    "demo": "https://uicore.pro/templates/furnika/",
+    "speed": 96
+  },
+  {
+    "name": "Furnilux",
+    "category": "Marketing & Media",
+    "image": "https://cdn.uicore.pro/2024/10/furnilux.webp",
+    "demo": "https://uicore.pro/templates/furnilux/",
+    "speed": 97
+  },
+  {
+    "name": "Futuro Design",
+    "category": "Agency & Corporate",
+    "image": "https://cdn.uicore.pro/2025/07/futuro-design.webp",
+    "demo": "https://uicore.pro/templates/futuro-design/",
+    "speed": 93
+  },
+  {
+    "name": "Gabrun",
+    "category": "Portfolio & CV",
+    "image": "https://cdn.uicore.pro/2024/11/gabrun.webp",
+    "demo": "https://uicore.pro/templates/gabrun/",
+    "speed": 91
+  },
+  {
+    "name": "Gallery Artisan",
+    "category": "Startup",
+    "image": "https://cdn.uicore.pro/2024/08/gallery-artisan.webp",
+    "demo": "https://uicore.pro/templates/gallery-artisan/",
+    "speed": 92
+  },
+  {
+    "name": "Gardenify",
+    "category": "Portfolio & CV",
+    "image": "https://cdn.uicore.pro/2025/11/gardenify.webp",
+    "demo": "https://uicore.pro/templates/gardenify/",
+    "speed": 90
+  },
+  {
+    "name": "Gazer",
+    "category": "SaaS & Technology",
+    "image": "https://cdn.uicore.pro/2025/07/gazer.webp",
+    "demo": "https://uicore.pro/templates/gazer/",
+    "speed": 96
+  },
+  {
+    "name": "Gensai",
+    "category": "Startup",
+    "image": "https://cdn.uicore.pro/2025/04/gensai.webp",
+    "demo": "https://uicore.pro/templates/gensai/",
+    "speed": 99
+  },
+  {
+    "name": "Glam",
+    "category": "Marketing & Media",
+    "image": "https://cdn.uicore.pro/2025/02/glam.webp",
+    "demo": "https://uicore.pro/templates/glam/",
+    "speed": 91
+  },
+  {
+    "name": "Glamora",
+    "category": "Agency & Corporate",
+    "image": "https://cdn.uicore.pro/2024/08/glamora.webp",
+    "demo": "https://uicore.pro/templates/glamora/",
+    "speed": 92
+  },
+  {
+    "name": "Globalchart",
+    "category": "SaaS & Technology",
+    "image": "https://cdn.uicore.pro/2025/07/globchart.webp",
+    "demo": "https://uicore.pro/templates/globalchart/",
+    "speed": 99
+  },
+  {
+    "name": "Glohome",
+    "category": "SaaS & Technology",
+    "image": "https://cdn.uicore.pro/2024/08/glohome.webp",
+    "demo": "https://uicore.pro/templates/glohome/",
+    "speed": 98
+  },
+  {
+    "name": "Goals",
+    "category": "Startup",
+    "image": "https://cdn.uicore.pro/2025/07/goals.webp",
+    "demo": "https://uicore.pro/templates/goals/",
+    "speed": 96
+  },
+  {
+    "name": "Gobta",
+    "category": "Marketing & Media",
+    "image": "https://cdn.uicore.pro/2025/01/gobta.webp",
+    "demo": "https://uicore.pro/templates/gobta/",
+    "speed": 95
+  },
+  {
+    "name": "Goodinvst",
+    "category": "Portfolio & CV",
+    "image": "https://cdn.uicore.pro/2024/05/goodinvst.webp",
+    "demo": "https://uicore.pro/templates/goodinvst/",
+    "speed": 91
+  },
+  {
+    "name": "Gotics",
+    "category": "Startup",
+    "image": "https://cdn.uicore.pro/2024/05/gotics.webp",
+    "demo": "https://uicore.pro/templates/gotics/",
+    "speed": 93
+  },
+  {
+    "name": "Grandvista",
+    "category": "Business & Consulting",
+    "image": "https://cdn.uicore.pro/2025/07/grandvista.webp",
+    "demo": "https://uicore.pro/templates/grandvista/",
+    "speed": 95
+  },
+  {
+    "name": "Greenhouse",
+    "category": "Business & Consulting",
+    "image": "https://cdn.uicore.pro/2025/01/greenhouse.webp",
+    "demo": "https://uicore.pro/templates/greenhouse/",
+    "speed": 97
+  },
+  {
+    "name": "Guardpest",
+    "category": "Portfolio & CV",
+    "image": "https://cdn.uicore.pro/2026/01/guardpest.webp",
+    "demo": "https://uicore.pro/templates/guardpest/",
+    "speed": 96
+  },
+  {
+    "name": "Harvest",
+    "category": "Portfolio & CV",
+    "image": "https://cdn.uicore.pro/2024/11/harvest.webp",
+    "demo": "https://uicore.pro/templates/harvest/",
+    "speed": 96
+  },
+  {
+    "name": "Homify",
+    "category": "Portfolio & CV",
+    "image": "https://cdn.uicore.pro/2025/07/homify.webp",
+    "demo": "https://uicore.pro/templates/homify/",
+    "speed": 99
+  },
+  {
+    "name": "Hugo",
+    "category": "Startup",
+    "image": "https://cdn.uicore.pro/2024/05/hugo.webp",
+    "demo": "https://uicore.pro/templates/hugo/",
+    "speed": 99
+  },
+  {
+    "name": "Humanty",
+    "category": "SaaS & Technology",
+    "image": "https://cdn.uicore.pro/2025/11/humanty.webp",
+    "demo": "https://uicore.pro/templates/humanty/",
+    "speed": 96
+  },
+  {
+    "name": "Inveslux",
+    "category": "Startup",
+    "image": "https://cdn.uicore.pro/2026/01/inveslux.webp",
+    "demo": "https://uicore.pro/templates/inveslux/",
+    "speed": 99
+  },
+  {
+    "name": "Kansas",
+    "category": "Agency & Corporate",
+    "image": "https://cdn.uicore.pro/2024/09/kansas.webp",
+    "demo": "https://uicore.pro/templates/kansas/",
+    "speed": 95
+  },
+  {
+    "name": "Keeper",
+    "category": "Portfolio & CV",
+    "image": "https://cdn.uicore.pro/2025/07/keeper.webp",
+    "demo": "https://uicore.pro/templates/keeper/",
+    "speed": 92
+  },
+  {
+    "name": "Kley",
+    "category": "Agency & Corporate",
+    "image": "https://cdn.uicore.pro/2025/07/kley.webp",
+    "demo": "https://uicore.pro/templates/kley/",
+    "speed": 90
+  },
+  {
+    "name": "Kobe",
+    "category": "Business & Consulting",
+    "image": "https://cdn.uicore.pro/2024/09/kobe.webp",
+    "demo": "https://uicore.pro/templates/kobe/",
+    "speed": 92
+  },
+  {
+    "name": "Leadz",
+    "category": "SaaS & Technology",
+    "image": "https://cdn.uicore.pro/2024/05/leadz.webp",
+    "demo": "https://uicore.pro/templates/leadz/",
+    "speed": 96
+  },
+  {
+    "name": "Luxegloss",
+    "category": "Portfolio & CV",
+    "image": "https://cdn.uicore.pro/2025/09/luxegloss.webp",
+    "demo": "https://uicore.pro/templates/luxegloss/",
+    "speed": 90
+  },
+  {
+    "name": "Maney",
+    "category": "SaaS & Technology",
+    "image": "https://cdn.uicore.pro/2025/07/maney.webp",
+    "demo": "https://uicore.pro/templates/maney/",
+    "speed": 94
+  },
+  {
+    "name": "Manroof",
+    "category": "Business & Consulting",
+    "image": "https://cdn.uicore.pro/2025/07/manroof.webp",
+    "demo": "https://uicore.pro/templates/manroof/",
+    "speed": 97
+  },
+  {
+    "name": "Matte",
+    "category": "SaaS & Technology",
+    "image": "https://cdn.uicore.pro/2024/11/matte.webp",
+    "demo": "https://uicore.pro/templates/matte/",
+    "speed": 92
+  },
+  {
+    "name": "Mayo",
+    "category": "Startup",
+    "image": "https://cdn.uicore.pro/2024/05/mayo.webp",
+    "demo": "https://uicore.pro/templates/mayo/",
+    "speed": 93
+  },
+  {
+    "name": "Moe Design",
+    "category": "Portfolio & CV",
+    "image": "https://cdn.uicore.pro/2025/07/moe-design.webp",
+    "demo": "https://uicore.pro/templates/moe-design/",
+    "speed": 90
+  },
+  {
+    "name": "Moffin",
+    "category": "Business & Consulting",
+    "image": "https://cdn.uicore.pro/2025/04/moffin.webp",
+    "demo": "https://uicore.pro/templates/moffin/",
+    "speed": 97
+  },
+  {
+    "name": "Momento",
+    "category": "Marketing & Media",
+    "image": "https://cdn.uicore.pro/2024/05/momento.webp",
+    "demo": "https://uicore.pro/templates/momento/",
+    "speed": 96
+  },
+  {
+    "name": "Monoline",
+    "category": "Portfolio & CV",
+    "image": "https://cdn.uicore.pro/2024/05/monoline.webp",
+    "demo": "https://uicore.pro/templates/monoline/",
+    "speed": 98
+  },
+  {
+    "name": "Monvo",
+    "category": "SaaS & Technology",
+    "image": "https://cdn.uicore.pro/2024/09/monvo.webp",
+    "demo": "https://uicore.pro/templates/monvo/",
+    "speed": 98
+  },
+  {
+    "name": "Moseom",
+    "category": "SaaS & Technology",
+    "image": "https://cdn.uicore.pro/2025/07/moseom.webp",
+    "demo": "https://uicore.pro/templates/moseom/",
+    "speed": 95
+  },
+  {
+    "name": "Musi E",
+    "category": "Agency & Corporate",
+    "image": "https://cdn.uicore.pro/2025/07/musi-e.webp",
+    "demo": "https://uicore.pro/templates/musi-e/",
+    "speed": 90
+  },
+  {
+    "name": "Musicly",
+    "category": "Marketing & Media",
+    "image": "https://cdn.uicore.pro/2025/07/musicly.webp",
+    "demo": "https://uicore.pro/templates/musicly/",
+    "speed": 95
+  },
+  {
+    "name": "Mycar Id",
+    "category": "Business & Consulting",
+    "image": "https://cdn.uicore.pro/2025/07/mycar-id.webp",
+    "demo": "https://uicore.pro/templates/mycar-id/",
+    "speed": 91
+  },
+  {
+    "name": "Napoly",
+    "category": "Marketing & Media",
+    "image": "https://cdn.uicore.pro/2024/09/napoly.webp",
+    "demo": "https://uicore.pro/templates/napoly/",
+    "speed": 91
+  },
+  {
+    "name": "Nero Art",
+    "category": "Startup",
+    "image": "https://cdn.uicore.pro/2025/07/nero-art.webp",
+    "demo": "https://uicore.pro/templates/nero-art/",
+    "speed": 94
+  },
+  {
+    "name": "Nexus",
+    "category": "Marketing & Media",
+    "image": "https://cdn.uicore.pro/2024/05/nexus.webp",
+    "demo": "https://uicore.pro/templates/nexus/",
+    "speed": 94
+  },
+  {
+    "name": "Nutrifit",
+    "category": "Agency & Corporate",
+    "image": "https://cdn.uicore.pro/2024/08/nutrifit.webp",
+    "demo": "https://uicore.pro/templates/nutrifit/",
+    "speed": 96
+  },
+  {
+    "name": "Oinoy",
+    "category": "Marketing & Media",
+    "image": "https://cdn.uicore.pro/2024/05/oinoy.webp",
+    "demo": "https://uicore.pro/templates/oinoy/",
+    "speed": 99
+  },
+  {
+    "name": "Onlybank",
+    "category": "Business & Consulting",
+    "image": "https://cdn.uicore.pro/2024/05/onlybank.webp",
+    "demo": "https://uicore.pro/templates/onlybank/",
+    "speed": 92
+  },
+  {
+    "name": "Open Bank",
+    "category": "Startup",
+    "image": "https://cdn.uicore.pro/2024/09/open-bank.webp",
+    "demo": "https://uicore.pro/templates/open-bank/",
+    "speed": 98
+  },
+  {
+    "name": "Optimizely",
+    "category": "SaaS & Technology",
+    "image": "https://cdn.uicore.pro/2025/07/optimizely.webp",
+    "demo": "https://uicore.pro/templates/optimizely/",
+    "speed": 93
+  },
+  {
+    "name": "Overlays",
+    "category": "SaaS & Technology",
+    "image": "https://cdn.uicore.pro/2025/02/overlays.webp",
+    "demo": "https://uicore.pro/templates/overlays/",
+    "speed": 99
+  },
+  {
+    "name": "Pauds",
+    "category": "Agency & Corporate",
+    "image": "https://cdn.uicore.pro/2025/07/pauds.webp",
+    "demo": "https://uicore.pro/templates/pauds/",
+    "speed": 99
+  },
+  {
+    "name": "Peydo",
+    "category": "Business & Consulting",
+    "image": "https://cdn.uicore.pro/2025/07/peydo.webp",
+    "demo": "https://uicore.pro/templates/peydo/",
+    "speed": 96
+  },
+  {
+    "name": "Pipely",
+    "category": "Marketing & Media",
+    "image": "https://cdn.uicore.pro/2025/09/pipely.webp",
+    "demo": "https://uicore.pro/templates/pipely/",
+    "speed": 90
+  },
+  {
+    "name": "Plannerie",
+    "category": "Startup",
+    "image": "https://cdn.uicore.pro/2024/05/plannerie.webp",
+    "demo": "https://uicore.pro/templates/plannerie/",
+    "speed": 90
+  },
+  {
+    "name": "Podkasa",
+    "category": "Business & Consulting",
+    "image": "https://cdn.uicore.pro/2025/07/podkasa.webp",
+    "demo": "https://uicore.pro/templates/podkasa/",
+    "speed": 94
+  },
+  {
+    "name": "Ponta",
+    "category": "SaaS & Technology",
+    "image": "https://cdn.uicore.pro/2024/11/ponta.webp",
+    "demo": "https://uicore.pro/templates/ponta/",
+    "speed": 91
+  },
+  {
+    "name": "Reach",
+    "category": "SaaS & Technology",
+    "image": "https://cdn.uicore.pro/2024/09/reach.webp",
+    "demo": "https://uicore.pro/templates/reach/",
+    "speed": 97
+  },
+  {
+    "name": "Refinance",
+    "category": "Portfolio & CV",
+    "image": "https://cdn.uicore.pro/2025/07/refinance.webp",
+    "demo": "https://uicore.pro/templates/refinance/",
+    "speed": 94
+  },
+  {
+    "name": "Royal Place",
+    "category": "Business & Consulting",
+    "image": "https://cdn.uicore.pro/2025/07/royal-place.webp",
+    "demo": "https://uicore.pro/templates/royal-place/",
+    "speed": 90
+  },
+  {
+    "name": "Ruang",
+    "category": "Business & Consulting",
+    "image": "https://cdn.uicore.pro/2025/04/ruang.webp",
+    "demo": "https://uicore.pro/templates/ruang/",
+    "speed": 96
+  },
+  {
+    "name": "Saosin",
+    "category": "Marketing & Media",
+    "image": "https://cdn.uicore.pro/2025/07/saosin.webp",
+    "demo": "https://uicore.pro/templates/saosin/",
+    "speed": 98
+  },
+  {
+    "name": "Sastrue",
+    "category": "Startup",
+    "image": "https://cdn.uicore.pro/2025/09/sastrue.webp",
+    "demo": "https://uicore.pro/templates/sastrue/",
+    "speed": 96
+  },
+  {
+    "name": "Sein",
+    "category": "Portfolio & CV",
+    "image": "https://cdn.uicore.pro/2024/11/sein.webp",
+    "demo": "https://uicore.pro/templates/sein/",
+    "speed": 91
+  },
+  {
+    "name": "Sency",
+    "category": "Startup",
+    "image": "https://cdn.uicore.pro/2024/09/sency.webp",
+    "demo": "https://uicore.pro/templates/sency/",
+    "speed": 92
+  },
+  {
+    "name": "Sendmail",
+    "category": "Portfolio & CV",
+    "image": "https://cdn.uicore.pro/2024/05/sendmail.webp",
+    "demo": "https://uicore.pro/templates/sendmail/",
+    "speed": 92
+  },
+  {
+    "name": "Shutterbug",
+    "category": "Portfolio & CV",
+    "image": "https://cdn.uicore.pro/2025/07/shutterbug.webp",
+    "demo": "https://uicore.pro/templates/shutterbug/",
+    "speed": 93
+  },
+  {
+    "name": "Sisyphus",
+    "category": "Business & Consulting",
+    "image": "https://cdn.uicore.pro/2025/07/sisyphus.webp",
+    "demo": "https://uicore.pro/templates/sisyphus/",
+    "speed": 92
+  },
+  {
+    "name": "Slate",
+    "category": "SaaS & Technology",
+    "image": "https://cdn.uicore.pro/2024/05/slate.webp",
+    "demo": "https://uicore.pro/templates/slate/",
+    "speed": 92
+  },
+  {
+    "name": "Slubby",
+    "category": "Marketing & Media",
+    "image": "https://cdn.uicore.pro/2025/07/slubby.webp",
+    "demo": "https://uicore.pro/templates/slubby/",
+    "speed": 95
+  },
+  {
+    "name": "Smartbio",
+    "category": "Startup",
+    "image": "https://cdn.uicore.pro/2024/08/smartbio.webp",
+    "demo": "https://uicore.pro/templates/smartbio/",
+    "speed": 91
+  },
+  {
+    "name": "Snaeland",
+    "category": "Portfolio & CV",
+    "image": "https://cdn.uicore.pro/2025/05/snaeland.webp",
+    "demo": "https://uicore.pro/templates/snaeland/",
+    "speed": 98
+  },
+  {
+    "name": "Social Vibes",
+    "category": "Startup",
+    "image": "https://cdn.uicore.pro/2025/02/social-vibes.webp",
+    "demo": "https://uicore.pro/templates/social-vibes/",
+    "speed": 97
+  },
+  {
+    "name": "Socky",
+    "category": "Business & Consulting",
+    "image": "https://cdn.uicore.pro/2025/07/socky.webp",
+    "demo": "https://uicore.pro/templates/socky/",
+    "speed": 90
+  },
+  {
+    "name": "Speede",
+    "category": "Agency & Corporate",
+    "image": "https://cdn.uicore.pro/2025/07/speede.webp",
+    "demo": "https://uicore.pro/templates/speede/",
+    "speed": 93
+  },
+  {
+    "name": "Spotless",
+    "category": "Agency & Corporate",
+    "image": "https://cdn.uicore.pro/2025/05/spotless.webp",
+    "demo": "https://uicore.pro/templates/spotless/",
+    "speed": 92
+  },
+  {
+    "name": "Starship",
+    "category": "Startup",
+    "image": "https://cdn.uicore.pro/2025/07/starship.webp",
+    "demo": "https://uicore.pro/templates/starship/",
+    "speed": 96
+  },
+  {
+    "name": "Stream",
+    "category": "Agency & Corporate",
+    "image": "https://cdn.uicore.pro/2024/09/stream.webp",
+    "demo": "https://uicore.pro/templates/stream/",
+    "speed": 91
+  },
+  {
+    "name": "Suergy",
+    "category": "Business & Consulting",
+    "image": "https://cdn.uicore.pro/2025/02/suergy.webp",
+    "demo": "https://uicore.pro/templates/suergy/",
+    "speed": 96
+  },
+  {
+    "name": "Summer",
+    "category": "Agency & Corporate",
+    "image": "https://cdn.uicore.pro/2025/07/summer.webp",
+    "demo": "https://uicore.pro/templates/summer/",
+    "speed": 98
+  },
+  {
+    "name": "Sunno",
+    "category": "Agency & Corporate",
+    "image": "https://cdn.uicore.pro/2025/07/sunno.webp",
+    "demo": "https://uicore.pro/templates/sunno/",
+    "speed": 99
+  },
+  {
+    "name": "Sunside",
+    "category": "Portfolio & CV",
+    "image": "https://cdn.uicore.pro/2024/11/sunside.webp",
+    "demo": "https://uicore.pro/templates/sunside/",
+    "speed": 96
+  },
+  {
+    "name": "Synapse",
+    "category": "Startup",
+    "image": "https://cdn.uicore.pro/2025/05/synapse.webp",
+    "demo": "https://uicore.pro/templates/synapse/",
+    "speed": 94
+  },
+  {
+    "name": "Sync",
+    "category": "Agency & Corporate",
+    "image": "https://cdn.uicore.pro/2025/07/sync.webp",
+    "demo": "https://uicore.pro/templates/sync/",
+    "speed": 93
+  },
+  {
+    "name": "Synergies",
+    "category": "Agency & Corporate",
+    "image": "https://cdn.uicore.pro/2024/10/synergies.webp",
+    "demo": "https://uicore.pro/templates/synergies/",
+    "speed": 90
+  },
+  {
+    "name": "Taskgain",
+    "category": "SaaS & Technology",
+    "image": "https://cdn.uicore.pro/2024/05/task-gain.webp",
+    "demo": "https://uicore.pro/templates/taskgain/",
+    "speed": 98
+  },
+  {
+    "name": "The Seed Hub",
+    "category": "Startup",
+    "image": "https://cdn.uicore.pro/2025/07/the-seed-hub.webp",
+    "demo": "https://uicore.pro/templates/the-seed-hub/",
+    "speed": 99
+  },
+  {
+    "name": "Trakker",
+    "category": "Agency & Corporate",
+    "image": "https://cdn.uicore.pro/2025/09/trakker.webp",
+    "demo": "https://uicore.pro/templates/trakker/",
+    "speed": 90
+  },
+  {
+    "name": "Unbox",
+    "category": "Startup",
+    "image": "https://cdn.uicore.pro/2024/05/unbox.webp",
+    "demo": "https://uicore.pro/templates/unbox/",
+    "speed": 95
+  },
+  {
+    "name": "Undro",
+    "category": "Marketing & Media",
+    "image": "https://cdn.uicore.pro/2025/04/undro.webp",
+    "demo": "https://uicore.pro/templates/undro/",
+    "speed": 93
+  },
+  {
+    "name": "Urban Building",
+    "category": "Marketing & Media",
+    "image": "https://cdn.uicore.pro/2024/05/urban-building.webp",
+    "demo": "https://uicore.pro/templates/urban-building/",
+    "speed": 99
+  },
+  {
+    "name": "Varma",
+    "category": "Business & Consulting",
+    "image": "https://cdn.uicore.pro/2025/04/varma.webp",
+    "demo": "https://uicore.pro/templates/varma/",
+    "speed": 91
+  },
+  {
+    "name": "Velonet",
+    "category": "Business & Consulting",
+    "image": "https://cdn.uicore.pro/2024/05/velonet.webp",
+    "demo": "https://uicore.pro/templates/velonet/",
+    "speed": 98
+  },
+  {
+    "name": "Velvet",
+    "category": "Agency & Corporate",
+    "image": "https://cdn.uicore.pro/2024/10/velvet.webp",
+    "demo": "https://uicore.pro/templates/velvet/",
+    "speed": 93
+  },
+  {
+    "name": "Verdant Hale",
+    "category": "Business & Consulting",
+    "image": "https://cdn.uicore.pro/2025/11/verdant-hale.webp",
+    "demo": "https://uicore.pro/templates/verdant-hale/",
+    "speed": 96
+  },
+  {
+    "name": "Voltrive",
+    "category": "Startup",
+    "image": "https://cdn.uicore.pro/2025/11/voltrive.webp",
+    "demo": "https://uicore.pro/templates/voltrive/",
+    "speed": 96
+  },
+  {
+    "name": "Waveless",
+    "category": "Agency & Corporate",
+    "image": "https://cdn.uicore.pro/2024/09/waveless.webp",
+    "demo": "https://uicore.pro/templates/waveless/",
+    "speed": 93
+  },
+  {
+    "name": "Woodhouse",
+    "category": "Business & Consulting",
+    "image": "https://cdn.uicore.pro/2025/11/woodhouse.webp",
+    "demo": "https://uicore.pro/templates/woodhouse/",
+    "speed": 90
+  },
+  {
+    "name": "Yofood",
+    "category": "SaaS & Technology",
+    "image": "https://cdn.uicore.pro/2025/01/yofood.webp",
+    "demo": "https://uicore.pro/templates/yofood/",
+    "speed": 97
+  },
+  {
+    "name": "Yoride",
+    "category": "SaaS & Technology",
+    "image": "https://cdn.uicore.pro/2025/07/yoride.webp",
+    "demo": "https://uicore.pro/templates/yoride/",
+    "speed": 95
+  },
+  {
+    "name": "Ziva",
+    "category": "Marketing & Media",
+    "image": "https://cdn.uicore.pro/2024/10/ziva.webp",
+    "demo": "https://uicore.pro/templates/ziva/",
+    "speed": 92
+  }
+]

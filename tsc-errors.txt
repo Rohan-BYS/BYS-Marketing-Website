@@ -1,0 +1,3 @@
+src/pages/FounderPortfolio.tsx(1,10): error TS6133: 'Camera' is declared but its value is never read.
+src/pages/FounderPortfolio.tsx(1,80): error TS6133: 'LinkIcon' is declared but its value is never read.
+src/pages/Home.tsx(1,27): error TS6133: 'Play' is declared but its value is never read.

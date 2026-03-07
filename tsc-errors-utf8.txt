@@ -1,0 +1,11 @@
+src/pages/BlogArticle.tsx(12,8): error TS2307: Cannot find module '@mui/icons-material' or its corresponding type declarations.
+src/pages/BookingConfirmation.tsx(11,8): error TS2307: Cannot find module '@mui/icons-material' or its corresponding type declarations.
+src/pages/ExclusiveOffers.tsx(8,8): error TS2307: Cannot find module '@mui/icons-material' or its corresponding type declarations.
+src/pages/FounderPortfolio.tsx(1,10): error TS6133: 'Camera' is declared but its value is never read.
+src/pages/FounderPortfolio.tsx(1,80): error TS6133: 'LinkIcon' is declared but its value is never read.
+src/pages/Home.tsx(1,27): error TS6133: 'Play' is declared but its value is never read.
+src/pages/MediaProductionService.tsx(15,8): error TS2307: Cannot find module '@mui/icons-material' or its corresponding type declarations.
+src/pages/PortfolioDemos.tsx(10,8): error TS2307: Cannot find module '@mui/icons-material' or its corresponding type declarations.
+src/pages/PortfolioHub.tsx(1,60): error TS2307: Cannot find module '@mui/icons-material' or its corresponding type declarations.
+src/pages/SponsorshipApplication.tsx(11,8): error TS2307: Cannot find module '@mui/icons-material' or its corresponding type declarations.
+src/pages/WebDevService.tsx(1,30): error TS2307: Cannot find module '@mui/icons-material' or its corresponding type declarations.

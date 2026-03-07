@@ -1,0 +1,29 @@
+﻿src/components/LazySection.tsx(1,10): error TS1484: 'ReactNode' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.
+src/components/MultiStepIntake.tsx(37,11): error TS6133: 'handleNext' is declared but its value is never read.
+src/components/MultiStepIntake.tsx(38,11): error TS6133: 'handlePrev' is declared but its value is never read.
+src/components/MultiStepIntake.tsx(284,17): error TS2322: Type '{ hidden: { opacity: number; scale: number; }; visible: { opacity: number; scale: number; transition: { duration: number; ease: string; }; }; exit: { opacity: number; scale: number; transition: { duration: number; ease: string; }; }; }' is not assignable to type 'Variants'.
+  Property 'visible' is incompatible with index signature.
+    Type '{ opacity: number; scale: number; transition: { duration: number; ease: string; }; }' is not assignable to type 'Variant'.
+      Type '{ opacity: number; scale: number; transition: { duration: number; ease: string; }; }' is not assignable to type 'TargetAndTransition'.
+        Type '{ opacity: number; scale: number; transition: { duration: number; ease: string; }; }' is not assignable to type '{ transition?: Transition<any> | undefined; transitionEnd?: ResolvedValues$1 | undefined; }'.
+          Types of property 'transition' are incompatible.
+            Type '{ duration: number; ease: string; }' is not assignable to type 'Transition<any> | undefined'.
+              Type '{ duration: number; ease: string; }' is not assignable to type 'TransitionWithValueOverrides<any>'.
+                Type '{ duration: number; ease: string; }' is not assignable to type 'ValueAnimationTransition<any>'.
+                  Types of property 'ease' are incompatible.
+                    Type 'string' is not assignable to type 'Easing | Easing[] | undefined'.
+src/components/ReactBits/GradualBlur.tsx(1,17): error TS1484: 'CSSProperties' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.
+src/components/ReactBits/GradualBlur.tsx(1,70): error TS1484: 'PropsWithChildren' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.
+src/components/ReactBits/Magnet.tsx(1,46): error TS1484: 'ReactNode' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.
+src/components/ReactBits/Magnet.tsx(1,57): error TS1484: 'HTMLAttributes' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.
+src/components/ReactBits/Waves.tsx(1,36): error TS1484: 'CSSProperties' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.
+src/pages/BookingConfirmation.tsx(2,5): error TS6133: 'RocketLaunch' is declared but its value is never read.
+src/pages/BookingConfirmation.tsx(3,5): error TS6133: 'Notifications' is declared but its value is never read.
+src/pages/ConsultationService.tsx(3,5): error TS6133: 'Bell' is declared but its value is never read.
+src/pages/ExclusiveOffers.tsx(2,5): error TS6133: 'RocketLaunch' is declared but its value is never read.
+src/pages/ExclusiveOffers.tsx(3,5): error TS6133: 'Notifications' is declared but its value is never read.
+src/pages/MediaProductionService.tsx(2,5): error TS6133: 'Notifications' is declared but its value is never read.
+src/pages/SponsorshipApplication.tsx(2,5): error TS6133: 'RocketLaunch' is declared but its value is never read.
+src/pages/SponsorshipApplication.tsx(3,5): error TS6133: 'Notifications' is declared but its value is never read.
+vite.config.ts(4,25): error TS2307: Cannot find module 'vite-plugin-compression' or its corresponding type declarations.
+vite.config.ts(5,25): error TS2307: Cannot find module 'vite-plugin-pwa' or its corresponding type declarations.

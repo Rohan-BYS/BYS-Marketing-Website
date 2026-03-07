@@ -1,0 +1,6 @@
+src/pages/Home.tsx(1,27): error TS6133: 'PlayCircle' is declared but its value is never read.
+src/pages/Home.tsx(1,39): error TS6133: 'Star' is declared but its value is never read.
+src/pages/Home.tsx(1,45): error TS6133: 'Sparkles' is declared but its value is never read.
+src/pages/Home.tsx(1,55): error TS6133: 'TrendingUp' is declared but its value is never read.
+src/pages/Home.tsx(1,67): error TS6133: 'ShieldCheck' is declared but its value is never read.
+src/pages/Home.tsx(1,80): error TS6133: 'Zap' is declared but its value is never read.
