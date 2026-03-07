@@ -43,7 +43,7 @@ const HostingerOffer = React.lazy(() => import('./pages/HostingerOffer'));
 
 function App() {
   return (
-    <BrowserRouter basename="/bys">
+    <BrowserRouter>
       <ScrollToTop />
       <Suspense fallback={<PageLoader />}>
         <Routes>
