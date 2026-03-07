@@ -1,7 +1,7 @@
 import ScrollReveal from '../components/ScrollReveal';
 import { useState, useMemo } from 'react';
 import { Link } from 'react-router-dom';
-import { CalendarDays, Clock, ArrowRight, Search, Sparkles } from 'lucide-react';
+import { Sparkles, Search } from 'lucide-react';
 import SEOHead from '../components/SEOHead';
 
 // ─── BLOG DATA ───

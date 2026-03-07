@@ -4,8 +4,7 @@ import {
     ArrowBack,
     Share,
     Twitter,
-    LinkedIn,
-    Facebook
+    LinkedIn
 } from '@mui/icons-material';
 import { useEffect, useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
