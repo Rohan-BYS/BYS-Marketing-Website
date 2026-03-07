@@ -666,11 +666,11 @@ const MagicBento: React.FC<BentoProps> = ({
                   clickEffect={clickEffect}
                   enableMagnetism={enableMagnetism}
                 >
-                  <div className="card__header flex justify-between gap-3 relative text-white">
+                  <div className="card__header flex justify-between gap-3 relative">
                     <span className="card__label text-xs uppercase font-extrabold tracking-widest text-primary z-10">{card.label}</span>
                     {card.icon && <div className="text-4xl absolute top-3 right-3 opacity-30 pointer-events-none group-hover:opacity-60 transition-opacity">{card.icon}</div>}
                   </div>
-                  <div className="card__content flex flex-col relative text-white z-10">
+                  <div className="card__content flex flex-col relative z-10">
                     <h3 className={`card__title font-bold text-xl m-0 mb-2 ${textAutoHide ? 'text-clamp-1' : ''}`}>
                       {card.title}
                     </h3>
