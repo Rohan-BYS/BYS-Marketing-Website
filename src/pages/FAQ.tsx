@@ -10,7 +10,7 @@ const faqData = [
         questions: [
             {
                 q: "What exactly is BYS Marketing?",
-                a: "BYS Marketing is an elite, full-stack digital growth agency founded by Rohan Kumar Chaudhary and headquartered in Delhi NCR, India. We don't just build websites or run ads; we architect comprehensive digital ecosystems—'Growth Machines'—designed to exponentially scale ambitious brands. Our expertise spans advanced web development, data-driven SEO, high-ROI digital marketing, cinematic media production, IT hardware, and robust cyber security."
+                a: "BYS Marketing is a full-stack digital growth agency founded by Rohan Kumar Chaudhary and registered in New Delhi, India. We don't just build websites or run ads; we architect comprehensive digital ecosystems—'Growth Machines'—designed to scale ambitious brands. As a remote-first agency, we keep our overhead low and pass those savings to clients. Our expertise spans advanced web development, data-driven SEO (including Generative Engine Optimization for AI search), high-ROI digital marketing, cinematic media production, IT hardware, and robust cyber security. We serve startups, SMBs, and enterprises across Delhi NCR, Pan-India, and worldwide."
             },
             {
                 q: "What makes BYS different from traditional marketing agencies?",
@@ -26,7 +26,11 @@ const faqData = [
             },
             {
                 q: "Where is BYS Marketing located?",
-                a: "BYS Marketing is headquartered in Delhi NCR, India. While our office is in Delhi, we serve clients worldwide — including businesses in the USA, UK, UAE, Australia, and across Europe. All communication, project management, and deliveries are handled digitally, so geography is never a barrier."
+                a: "BYS Marketing is a registered business based in New Delhi, India (Okhla, South Delhi), and operates as a remote-first agency serving clients across Delhi NCR, Pan-India, and globally — including the USA, UK, UAE, Australia, and across Europe. Our founder Rohan works from a professional home studio in the NCR region, and our developers and specialists work remotely. This isn't a compromise — it's a deliberate strategy. By eliminating expensive office rent and overhead, we pass those savings directly to our clients as lower pricing. All communication, project management, and deliveries are handled digitally with full transparency."
+            },
+            {
+                q: "Why is BYS Marketing more affordable than other agencies?",
+                a: "Most agencies spend lakhs on fancy offices, reception desks, and conference rooms. That cost gets baked into their pricing and passed on to you. We made a conscious choice: run a remote-first operation from professional home studios, hire distributed talent across India, and invest every saved rupee into better tools, better talent, and lower prices for our clients. The result? You get the same (or better) quality output at a fraction of the cost. We believe in spending money on things that directly improve your results — not on impressing you with a glass office."
             }
         ]
     },

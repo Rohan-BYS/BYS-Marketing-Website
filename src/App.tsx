@@ -40,6 +40,7 @@ const Careers = React.lazy(() => import('./pages/Careers'));
 const PrivacyPolicy = React.lazy(() => import('./pages/PrivacyPolicy'));
 const TermsOfService = React.lazy(() => import('./pages/TermsOfService'));
 const HostingerOffer = React.lazy(() => import('./pages/HostingerOffer'));
+const StartupSupport = React.lazy(() => import('./pages/StartupSupport'));
 
 function App() {
   return (
@@ -78,6 +79,7 @@ function App() {
             <Route path="privacy" element={<PrivacyPolicy />} />
             <Route path="terms" element={<TermsOfService />} />
             <Route path="hostinger-discount-code" element={<HostingerOffer />} />
+            <Route path="startups" element={<StartupSupport />} />
           </Route>
         </Routes>
       </Suspense>

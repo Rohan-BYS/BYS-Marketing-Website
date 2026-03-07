@@ -37,7 +37,7 @@ export const articles: BlogArticleData[] = [
         author: {
             name: 'Rohan Chaudhary',
             role: 'Growth & Automation Lead',
-            avatar: 'https://images.unsplash.com/photo-1556157382-97eda2d62296?auto=format&fit=crop&w=150&q=80',
+            avatar: '/rohan-chaudhary.jpg',
         },
         seo: {
             title: 'AI Chatbots for Customer Acquisition | Custom AI Agents',
@@ -121,9 +121,9 @@ export const articles: BlogArticleData[] = [
         readTime: '6 min',
         image: 'https://images.unsplash.com/photo-1620825937374-87fc1d6aaf2c?auto=format&fit=crop&q=80&w=1200',
         author: {
-            name: 'Priya Sharma',
-            role: 'Head of Search Marketing',
-            avatar: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=150&q=80',
+            name: 'Rohan Chaudhary',
+            role: 'Founder & SEO Strategist',
+            avatar: '/rohan-chaudhary.jpg',
         },
         seo: {
             title: 'Generative Engine Optimization (GEO) | Rank on ChatGPT & Perplexity',
@@ -207,9 +207,9 @@ export const articles: BlogArticleData[] = [
         readTime: '5 min',
         image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=1200',
         author: {
-            name: 'Alex Chen',
-            role: 'Technical Director',
-            avatar: 'https://lh3.googleusercontent.com/aida-public/AB6AXuAkFLVCHJyQnFwNpBYo74WWHcKEaNaMOv-p_K6OvyE3FxrqLFNzVKkDFLbXbXrGBaX-Tls2HHTkfK3nw7QKWogtCjkw7XnTWgfFRab6QqdpZM1ScQBdo8ZWqvHGZocfjJk4clTC3CG5YOXPnUKGRto8WeFa_KZwWZSjc0Y7igVTgsHeJlm5JtLeUTypUbD6cy7qYySmmcgrtp0CCeWXmWTLEj4QjcBN34L2gAaDCpB0yeGvgkBmyJ2SPvCuRdHtZJYLmveGF6G0SqE',
+            name: 'Rohan Chaudhary',
+            role: 'Founder & Technical Director',
+            avatar: '/rohan-chaudhary.jpg',
         },
         seo: {
             title: 'ROI of Custom AI Chatbots for Business Growth',

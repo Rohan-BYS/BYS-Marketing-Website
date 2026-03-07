@@ -1,5 +1,6 @@
 import type { ReactNode } from 'react';
-import { Sun, Moon, Bell } from 'lucide-react';
+import { Sun, Moon, Menu, X } from 'lucide-react';
+import { useState } from 'react';
 
 const BYSLogo = ({ size = 24 }: { size?: number }) => (
     <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} viewBox="0 0 375 375" fill="currentColor" aria-hidden="true">
@@ -24,6 +25,7 @@ export default function Header({
     brandLink
 }: HeaderProps) {
     const { theme, setTheme } = useTheme();
+    const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
     const toggleTheme = () => {
         if (theme === 'system') {
@@ -34,76 +36,103 @@ export default function Header({
         }
     };
 
+    const navLinks = [
+        { label: 'Company', to: '/about' },
+        { label: 'Team', to: '/team' },
+        { label: 'Careers', to: '/careers' },
+        { label: 'Blogs', to: '/blog' },
+        { label: 'Startup?', to: '/startups' },
+    ];
+
     return (
-        <header className="flex items-center justify-between pt-7 pb-3 md:py-6 px-6 relative z-50">
-            <div className="flex items-center gap-3">
-                {brandLink ? (
-                    <Link to={brandLink} className="w-10 h-10 rounded-xl bg-primary text-white flex items-center justify-center shadow-lg shadow-purple-200 dark:shadow-purple-900/40 hover:scale-105 transition-transform">
-                        {icon}
-                    </Link>
-                ) : (
-                    <div className="w-10 h-10 rounded-xl bg-primary text-white flex items-center justify-center shadow-lg shadow-purple-200 dark:shadow-purple-900/40">
-                        {icon}
-                    </div>
-                )}
-                <div>
-                    <h1 className="font-bold text-xl text-text-main dark:text-text-main-dark tracking-tight leading-none">{title}</h1>
-                    <p className="text-xs text-text-sub dark:text-text-sub-dark font-medium tracking-wider uppercase mt-1">{subtitle}</p>
-                </div>
-            </div>
-
-            {/* Desktop Navigation (Centered) */}
-            <nav className="hidden md:flex absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 items-center gap-1 bg-white/60 dark:bg-white/5 backdrop-blur-xl border border-white/80 dark:border-white/10 rounded-full px-2 py-1.5 shadow-sm">
-                {[
-                    { label: 'Company', to: '/about' },
-                    { label: 'Team', to: '/team' },
-                    { label: 'Careers', to: '/careers' },
-                    { label: 'Blogs', to: '/blog' },
-                    { label: 'Startup?', to: '/offers' },
-                ].map(({ label, to }) => (
-                    <Link
-                        key={label}
-                        to={to}
-                        className="relative group px-4 py-1.5 rounded-full text-sm font-semibold text-text-sub dark:text-white/70 hover:text-primary dark:hover:text-white transition-all duration-300 hover:bg-white/70 dark:hover:bg-white/10"
-                    >
-                        {/* Shimmer sweep on hover */}
-                        <span className="absolute inset-0 rounded-full overflow-hidden pointer-events-none">
-                            <span className="absolute inset-0 -translate-x-full group-hover:translate-x-full transition-transform duration-700 bg-gradient-to-r from-transparent via-white/50 dark:via-white/10 to-transparent" />
-                        </span>
-                        {/* Label */}
-                        <span className="relative z-10">{label}</span>
-                        {/* Animated dot indicator */}
-                        <span className="absolute bottom-1 left-1/2 -translate-x-1/2 w-1 h-1 rounded-full bg-primary scale-0 group-hover:scale-100 transition-transform duration-300" />
-                    </Link>
-                ))}
-            </nav>
-
-            <div className="flex items-center gap-2 md:gap-3">
-
-                {/* Theme Toggle Button */}
-                <button
-                    onClick={toggleTheme}
-                    className="relative group overflow-hidden rounded-full w-10 h-10 flex items-center justify-center bg-white dark:bg-[#1a1a1a] shadow-neumorphic dark:shadow-neumorphic-sm-dark active:shadow-neumorphic-pressed dark:active:shadow-neumorphic-pressed transition-all duration-300 border border-gray-50 dark:border-white/5"
-                    aria-label="Toggle Dark Mode"
-                    title="Toggle Dark Mode"
-                >
-                    {theme === 'dark' ? (
-                        <Sun size={20} className="text-yellow-400 group-hover:scale-110 transition-transform" />
+        <>
+            <header className="flex items-center justify-between pt-7 pb-3 md:py-6 px-6 relative z-50">
+                <div className="flex items-center gap-3">
+                    {brandLink ? (
+                        <Link to={brandLink} className="w-10 h-10 rounded-xl bg-primary text-white flex items-center justify-center shadow-lg shadow-purple-200 dark:shadow-purple-900/40 hover:scale-105 transition-transform">
+                            {icon}
+                        </Link>
                     ) : (
-                        <Moon size={20} className="text-text-sub group-hover:text-primary transition-colors" />
+                        <div className="w-10 h-10 rounded-xl bg-primary text-white flex items-center justify-center shadow-lg shadow-purple-200 dark:shadow-purple-900/40">
+                            {icon}
+                        </div>
                     )}
-                </button>
+                    <div>
+                        <h1 className="font-bold text-xl text-text-main dark:text-text-main-dark tracking-tight leading-none">{title}</h1>
+                        <p className="text-xs text-text-sub dark:text-text-sub-dark font-medium tracking-wider uppercase mt-1">{subtitle}</p>
+                    </div>
+                </div>
 
-                {/* Notification Icon */}
-                <button
-                    className="relative group overflow-hidden rounded-full w-10 h-10 flex items-center justify-center bg-white dark:bg-[#1a1a1a] shadow-neumorphic dark:shadow-neumorphic-sm-dark active:shadow-neumorphic-pressed dark:active:shadow-neumorphic-pressed transition-all duration-300 border border-gray-50 dark:border-white/5"
-                    aria-label="Notifications"
-                    title="Notifications"
-                >
-                    <Bell size={20} className="text-text-sub dark:text-text-sub-dark group-hover:text-primary dark:group-hover:text-primary-light transition-colors" />
-                    <div className="absolute top-[10px] right-[10px] w-2 h-2 bg-red-500 rounded-full border border-white dark:border-[#1a1a1a]"></div>
-                </button>
-            </div>
-        </header>
+                {/* Desktop Navigation (Centered) */}
+                <nav className="hidden md:flex absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 items-center gap-1 bg-white/60 dark:bg-white/5 backdrop-blur-xl border border-white/80 dark:border-white/10 rounded-full px-2 py-1.5 shadow-sm">
+                    {navLinks.map(({ label, to }) => (
+                        <Link
+                            key={label}
+                            to={to}
+                            className="relative group px-4 py-1.5 rounded-full text-sm font-semibold text-text-sub dark:text-white/70 hover:text-primary dark:hover:text-white transition-all duration-300 hover:bg-white/70 dark:hover:bg-white/10"
+                        >
+                            {/* Shimmer sweep on hover */}
+                            <span className="absolute inset-0 rounded-full overflow-hidden pointer-events-none">
+                                <span className="absolute inset-0 -translate-x-full group-hover:translate-x-full transition-transform duration-700 bg-gradient-to-r from-transparent via-white/50 dark:via-white/10 to-transparent" />
+                            </span>
+                            {/* Label */}
+                            <span className="relative z-10">{label}</span>
+                            {/* Animated dot indicator */}
+                            <span className="absolute bottom-1 left-1/2 -translate-x-1/2 w-1 h-1 rounded-full bg-primary scale-0 group-hover:scale-100 transition-transform duration-300" />
+                        </Link>
+                    ))}
+                </nav>
+
+                <div className="flex items-center gap-2 md:gap-3">
+
+                    {/* Theme Toggle Button */}
+                    <button
+                        onClick={toggleTheme}
+                        className="relative group overflow-hidden rounded-full w-10 h-10 flex items-center justify-center bg-white dark:bg-[#1a1a1a] shadow-neumorphic dark:shadow-neumorphic-sm-dark active:shadow-neumorphic-pressed dark:active:shadow-neumorphic-pressed transition-all duration-300 border border-gray-50 dark:border-white/5"
+                        aria-label="Toggle Dark Mode"
+                        title="Toggle Dark Mode"
+                    >
+                        {theme === 'dark' ? (
+                            <Sun size={20} className="text-yellow-400 group-hover:scale-110 transition-transform" />
+                        ) : (
+                            <Moon size={20} className="text-text-sub group-hover:text-primary transition-colors" />
+                        )}
+                    </button>
+
+                    {/* Mobile Menu Button (replaces notification bell) */}
+                    <button
+                        onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+                        className="md:hidden relative group overflow-hidden rounded-full w-10 h-10 flex items-center justify-center bg-white dark:bg-[#1a1a1a] shadow-neumorphic dark:shadow-neumorphic-sm-dark active:shadow-neumorphic-pressed dark:active:shadow-neumorphic-pressed transition-all duration-300 border border-gray-50 dark:border-white/5"
+                        aria-label="Toggle Menu"
+                        title="Toggle Menu"
+                    >
+                        {mobileMenuOpen ? (
+                            <X size={20} className="text-primary transition-colors" />
+                        ) : (
+                            <Menu size={20} className="text-text-sub dark:text-text-sub-dark group-hover:text-primary dark:group-hover:text-primary-light transition-colors" />
+                        )}
+                    </button>
+                </div>
+            </header>
+
+            {/* Mobile Dropdown Menu */}
+            {mobileMenuOpen && (
+                <div className="md:hidden fixed inset-x-0 top-[72px] z-40 px-4 animate-in fade-in slide-in-from-top-2 duration-200">
+                    <nav className="bg-white/90 dark:bg-[#1a1a1a]/95 backdrop-blur-2xl border border-gray-100 dark:border-white/10 rounded-2xl shadow-2xl shadow-black/10 dark:shadow-black/40 p-3 flex flex-col gap-1">
+                        {navLinks.map(({ label, to }) => (
+                            <Link
+                                key={label}
+                                to={to}
+                                onClick={() => setMobileMenuOpen(false)}
+                                className="flex items-center gap-3 px-4 py-3 rounded-xl text-sm font-bold text-text-main dark:text-white hover:bg-primary/5 dark:hover:bg-white/5 hover:text-primary transition-all"
+                            >
+                                <span className="w-1.5 h-1.5 rounded-full bg-primary/40" />
+                                {label}
+                            </Link>
+                        ))}
+                    </nav>
+                </div>
+            )}
+        </>
     );
 }

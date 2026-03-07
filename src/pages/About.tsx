@@ -60,7 +60,7 @@ const founders = [
         name: 'Rohan Kumar Chaudhary',
         title: 'Founder & CEO',
         bio: 'Started as a solo hustler, worked behind the scenes for dozens of brands as a white-label partner, and built BYS from the ground up into a full-stack digital growth agency serving clients worldwide.',
-        img: 'https://i.pravatar.cc/200?img=68',
+        img: '/rohan-chaudhary.jpg',
         tags: ['Growth Strategy', 'Brand Architecture', 'Leadership'],
     },
     {
