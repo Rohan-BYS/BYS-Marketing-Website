@@ -505,7 +505,7 @@ export default function Home() {
                                     <Link to={service.link}>
                                         <div className="glass-panel p-8 rounded-[2rem] hover:-translate-y-2 transition-all duration-300 group border border-white/60 dark:border-white/10 dark:bg-[#1a1a1a] dark:hover:bg-[#222] h-full flex flex-col justify-between">
                                             <div>
-                                                <div className={`w-16 h-16 rounded-2xl bg-white dark:bg-black/50 shadow-sm flex items-center justify-center mb-6 ${service.color} group-hover:scale-110 transition-transform`}>
+                                                <div className={`w-16 h-16 rounded-2xl bg-white dark:bg-black/50 shadow-sm flex items-center justify-center mb-6 ${service.color} service-icon-wrap`}>
                                                     <service.icon size={30} strokeWidth={2.5} />
                                                 </div>
                                                 <h4 className="text-2xl font-bold text-text-main dark:text-white mb-3 transition-colors">{service.title}</h4>

@@ -1,14 +1,6 @@
 import { useState, useRef, useEffect } from 'react';
 import { useBotContext } from '../context/ChatbotContext';
 import { Bot, X, Send, PlusCircle } from 'lucide-react';
-import { GoogleGenerativeAI } from '@google/generative-ai';
-
-// Initialize Gemini
-// Keys are obfuscated to prevent simple static scraping from the client-side bundle
-const _k1 = import.meta.env.VITE_GEMINI_API_KEY;
-const _obfuscated = "At4_HJJvccEXREnxPfuj3apK7BBZ2_DgDySazIA";
-const API_KEY = (_k1 && _k1.length > 5) ? _k1 : _obfuscated.split('').reverse().join('');
-const genAI = new GoogleGenerativeAI(API_KEY);
 
 const AGENT_NAMES = ['Rohan', 'Rupesh', 'Abhishek', 'Priya', 'Sarah', 'Alex'];
 
@@ -52,47 +44,26 @@ export default function AIChatbotModal() {
         setInput('');
         setIsLoading(true);
 
-        if (!API_KEY) {
-            setTimeout(() => {
-                setMessages(prev => [...prev, { role: 'ai', content: "Please configure VITE_GEMINI_API_KEY in your .env file to enable AI responses." }]);
-                setIsLoading(false);
-            }, 500);
-            return;
-        }
-
         try {
-            const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash" });
+            const response = await fetch('/api/chat', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({
+                    message: userMsg,
+                    agentName,
+                    context: dynamicContext,
+                }),
+            });
 
-            // Inject system prompt context to define the persona and knowledge base
-            const systemPrompt = `You are ${agentName}, a direct, fast, and solution-oriented digital expert for BYS Marketing & Advertising. 
+            if (!response.ok) {
+                const errorData = await response.json().catch(() => ({}));
+                throw new Error(errorData?.error || `Server error: ${response.status}`);
+            }
 
-DYNAMIC AGENCY KNOWLEDGE (PRIORITIZE THIS INFORMATION):
-${dynamicContext}
-
-AGENCY FACTS:
-- Founder/Expert: Rohan Kumar Chaudhary
-- Key Team: Rupesh Jha (Senior Dev), Abhishek Singh (Junior Dev & Automations)
-- Contact: +91 83838 94893 | hello@bys.marketing
-- Core Services: Full-Stack Web Dev, SEO, Paid Ads, UI/UX Design.
-
-CRITICAL RULES:
-1. NO UNPROMPTED PITCHING: Do not mention cost, pricing, or pitch services unless the user explicitly asks. Answer ONLY what was asked.
-2. EXPERT CONSULTATION: Act like an elite consultant. If they ask for a broad service (like "I need a website" or "I need marketing"), do NOT dump information. Instead, ask ONE clarifying question (e.g., "What type of website do you need? E-commerce or corporate?"). 
-3. NATURAL CONVERSATION: Guide them through their options conversationally. Wait for their answer. Keep answering and clarifying until they are satisfied and ready to proceed.
-4. CONTACT DETAILS: When providing contact info, put BOTH the phone (+91 83838 94893) and email (hello@bys.marketing) together. 
-5. FORMATTING & CHUNKING: You must write exactly 2 or 3 short, punchy messages. You MUST separate each message with a DOUBLE NEWLINE (\\n\\n). Do NOT use bullet points or lists.
-6. HANDLING SHORT QUESTIONS: If asked a 1-3 word question like "how", "what", "where", "who", or "when", connect it instantly to BYS Marketing services using the DYNAMIC AGENCY KNOWLEDGE.
-
-User Question: ${userMsg}`;
-
-            const result = await model.generateContent(systemPrompt);
-            const response = await result.response;
-            const text = response.text();
+            const data = await response.json();
+            const chunks: string[] = data.chunks || [];
 
             // Message Chunking & Typing Delay Simulator
-            // Split purely by newlines so contact info stays in one bubble
-            const chunks = text.split(/\n+/).filter(c => c.trim().length > 0);
-
             for (let i = 0; i < chunks.length; i++) {
                 const chunk = chunks[i].trim();
                 if (!chunk) continue;
@@ -110,14 +81,18 @@ User Question: ${userMsg}`;
                     await new Promise(r => setTimeout(r, 400));
                 }
             }
+
+            if (chunks.length === 0) {
+                setMessages(prev => [...prev, { role: 'ai', content: "I couldn't generate a response. Please try again." }]);
+            }
         } catch (error: any) {
-            console.error("Gemini API Error:", error);
+            console.error("Chat API Error:", error);
             let errorMessage = "I'm having trouble connecting to my neural network right now. Please try again later.";
 
-            if (error?.message?.includes('503') || error?.status === 503) {
-                errorMessage = "I am currently experiencing extremely high demand on my neural network. Please try again in a few moments.";
-            } else if (error?.message?.includes('429') || error?.status === 429) {
+            if (error?.message?.includes('429')) {
                 errorMessage = "My API quota limits have been reached for this billing cycle. Please contact Rohan to upgrade the AI engine plan.";
+            } else if (error?.message?.includes('503')) {
+                errorMessage = "I am currently experiencing extremely high demand on my neural network. Please try again in a few moments.";
             }
 
             setMessages(prev => [...prev, { role: 'ai', content: errorMessage }]);
