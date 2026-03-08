@@ -44,6 +44,7 @@ const StartupSupport = React.lazy(() => import('./pages/StartupSupport'));
 const LocalizedServiceWrapper = React.lazy(() => import('./pages/LocalizedServiceWrapper'));
 const LocationsSitemap = React.lazy(() => import('./pages/LocationsSitemap'));
 const OkhlaServicesHub = React.lazy(() => import('./pages/OkhlaServicesHub'));
+const BadarpurServicesHub = React.lazy(() => import('./pages/BadarpurServicesHub'));
 const ServiceAreas = React.lazy(() => import('./pages/ServiceAreas'));
 
 function App() {
@@ -92,6 +93,8 @@ function App() {
             <Route path="service-areas" element={<ServiceAreas />} />
             {/* Okhla Hub — specific route must come BEFORE the dynamic catch-all */}
             <Route path="in/okhla-industrial-area" element={<OkhlaServicesHub />} />
+            {/* Badarpur Hub */}
+            <Route path="in/badarpur-area" element={<BadarpurServicesHub />} />
             <Route path="in/:location/:serviceId" element={<LocalizedServiceWrapper />} />
           </Route>
         </Routes>

@@ -6,6 +6,7 @@ import ScrollReveal from '../components/ScrollReveal';
 // Target highest-intent SEO locations synchronized with ServiceAreas.tsx
 const targetLocations = [
     { name: 'Okhla Industrial Area', slug: 'okhla-industrial-area' },
+    { name: 'Badarpur Area', slug: 'badarpur-area' },
     { name: 'Connaught Place', slug: 'connaught-place' },
     { name: 'Gurugram', slug: 'gurugram' },
     { name: 'Noida', slug: 'noida' },

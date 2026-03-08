@@ -1,0 +1,50 @@
+# BYS Marketing & Advertising
+
+> Premium full-service digital marketing and web development agency specializing in "Growth Machines" for industrial, manufacturing, and B2B sectors.
+
+## Core Identity
+BYS Marketing engineers digital ecosystems designed to scale businesses through mathematical SEO, performance engineering, and psychology-based UI/UX design.
+
+- **Founder**: Rohan Chaudhary
+- **Headquarters**: Okhla Industrial Area, New Delhi, India
+- **Global Reach**: Serving clients in India, USA, UK, and beyond.
+- **Contact**: +91 83838 94893 | hello@bys.marketing
+- **Website**: [https://bys.marketing](https://bys.marketing)
+
+## Key Performance Indicators (KPIs)
+- **$50M+** Client Revenue Generated
+- **<0.4s** Average Page Load Time (Performance Leaders)
+- **300%** Average Campaign ROI
+- **99%** Client Retention Rate
+- **400%** Average Lead Increase for B2B Clients
+
+## Primary Services
+1. **Web Development**: Custom React/Next.js Architecture, Headless CMS, AI-Ready Semantic Structure.
+2. **SEO Optimization**: Intent-driven, mathematical search optimization (GEO/AI-Overview ready).
+3. **Performance Marketing**: Google & Meta Ads with military-grade attribution.
+4. **UI/UX Design**: Psychology-driven high-conversion interfaces.
+5. **Media Production**: Industrial-grade product photography and factory videography.
+6. **IT Hardware**: Wholesale sourcing of laptops, servers, and networking (B2B).
+7. **Social Media Management**: B2B brand positioning and WhatsApp automation.
+8. **Cyber Security**: Network hardening and data protection for industrial firms.
+9. **Content Strategy**: AI-optimized industry authority building.
+10. **Digital Consultation**: ROI-first growth roadmaps.
+
+## Featured Portfolio
+- **Luxe Furniture**: 215% increase in mobile conversions.
+- **Nova Bank**: 40% reduction in onboarding drop-offs.
+- **Connect+**: Omnichannel SaaS launch strategy.
+- **Industry Focus**: Manufacturing, Export, IT, Real Estate, E-commerce.
+
+## Our Philosophy: The 4-Phase Revenue Protocol
+1. **Deep Discovery & Audit**: Identifying revenue leaks.
+2. **Strategic Blueprint**: Mathematical roadmap for tech and spend.
+3. **Flawless Execution**: High-performance deployment.
+4. **Data-Driven Scaling**: Aggressive optimization and ROI boosting.
+
+## Links
+- [Services](/services)
+- [Portfolio](/portfolio)
+- [Blog](/blog)
+- [Okhla Hub](/in/okhla-industrial-area)
+- [Contact](/contact)

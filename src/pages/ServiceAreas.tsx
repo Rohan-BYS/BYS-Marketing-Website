@@ -18,6 +18,15 @@ const cities = [
         highlight: true,
     },
     {
+        name: 'Badarpur Area',
+        slug: 'badarpur-area',
+        hubRoute: '/in/badarpur-area',
+        state: 'New Delhi',
+        tagline: 'Gateway to Delhi-NCR trade & logistics',
+        image: 'https://images.unsplash.com/photo-1590066348630-9759be752077?w=600&q=80&auto=format',
+        imageAlt: 'Badarpur border area Delhi NCR trade junction',
+    },
+    {
         name: 'Connaught Place',
         slug: 'connaught-place',
         hubRoute: '/in/connaught-place/web-development',
