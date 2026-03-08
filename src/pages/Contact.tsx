@@ -40,7 +40,7 @@ export default function Contact() {
     ];
 
     return (
-        <main className="flex flex-col gap-12 lg:gap-20 pt-4 pb-32 mx-auto w-full">
+        <main className="flex flex-col gap-8 px-6 pt-12 max-w-[1200px] mx-auto w-full pb-32">
             <SEOHead
                 title="Contact BYS Marketing | Start Your Project"
                 description="Ready to scale? Contact BYS Marketing in New Delhi for enterprise SEO, performance web development, and ROI-driven marketing campaigns."
@@ -49,7 +49,7 @@ export default function Contact() {
             />
 
             {/* HERO SECTION */}
-            <section className="relative px-6 py-24 md:py-32 text-center w-full min-h-[50vh] flex flex-col items-center justify-center overflow-hidden">
+            <section className="relative mt-2">
                 <ScrollReveal>
                     <div className="glass-panel rounded-3xl p-8 md:p-12 relative overflow-hidden group shadow-floating border-white/60 dark:border-white/10 dark:shadow-glow-purple">
                         <div className="absolute -right-12 -top-12 w-56 h-56 bg-primary/10 dark:bg-primary/20 rounded-full blur-3xl group-hover:bg-primary/20 transition-all duration-500"></div>
