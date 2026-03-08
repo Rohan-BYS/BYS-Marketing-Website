@@ -14,25 +14,45 @@ import {
 import SEOHead from '../components/SEOHead';
 import ServiceCrossLinks from '../components/ServiceCrossLinks';
 
-export default function MediaProductionService() {
-    const schema = {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "serviceType": "Media Production",
-        "provider": { "@type": "Organization", "name": "BYS Marketing", "url": "https://bys.marketing" },
-        "areaServed": "Worldwide",
-        "description": "Cinematic media production including 4K video, brand storytelling, commercial ads, sound design, motion graphics, and photography. Strategic partnership with TM Production."
-    };
+interface MediaProductionServiceProps {
+    locationOverride?: string;
+    pageTitle?: string;
+}
+
+export default function MediaProductionService({ locationOverride, pageTitle = "Cinematic Media Production Services" }: MediaProductionServiceProps) {
+    const schemas = [
+        {
+            "@context": "https://schema.org",
+            "@type": "Service",
+            "serviceType": "Media Production",
+            "provider": {
+                "@type": "Organization",
+                "name": "BYS Marketing",
+                "url": "https://bys.marketing"
+            },
+            "areaServed": locationOverride || "Worldwide",
+            "description": "High-end corporate video production, commercial photography, and brand storytelling. We create visuals that convert."
+        },
+        {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bys.marketing" },
+                { "@type": "ListItem", "position": 2, "name": "Services", "item": "https://bys.marketing/services" },
+                { "@type": "ListItem", "position": 3, "name": "Media Production", "item": `https://bys.marketing${locationOverride ? `/in/${locationOverride.toLowerCase().replace(/ /g, '-')}` : ''}/services/media-production` }
+            ]
+        }
+    ];
 
     const [isVideoOpen, setIsVideoOpen] = useState(false);
 
     return (
         <div className="bg-white dark:bg-[#0a0a0a] text-text-main dark:text-text-main-dark min-h-screen flex flex-col pb-32 transition-colors">
             <SEOHead
-                title="Cinematic Media Production Services"
-                description="Studio-grade 4K video production, brand storytelling, commercial ads, sound design & motion graphics. 10M+ combined views. Powered by TM Production partnership."
-                url="https://bys.marketing/services/media-production"
-                schema={schema}
+                title={pageTitle}
+                description="Premium media production agency. Specializing in high-end corporate videos, commercial photography, and brand storytelling that drives engagement."
+                url={`https://bys.marketing${locationOverride ? `/in/${locationOverride.toLowerCase().replace(/ /g, '-')}` : ''}/services/media-production`}
+                schema={schemas}
                 keywords="media production, video production, 4K video, brand storytelling, commercial ads, sound design, motion graphics, BYS Marketing, TM Production"
             />
 

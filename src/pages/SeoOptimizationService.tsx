@@ -11,25 +11,58 @@ import SEOHead from '../components/SEOHead';
 import Waves from '../components/ReactBits/Waves';
 import DesktopSidebar from '../components/DesktopSidebar';
 import ServiceCrossLinks from '../components/ServiceCrossLinks';
+import OkhlaStory from '../components/OkhlaStory';
 
-export default function SeoOptimizationService() {
-    const schema = {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "serviceType": "SEO Optimization",
-        "provider": { "@type": "Organization", "name": "BYS Marketing", "url": "https://bys.marketing" },
-        "areaServed": "Worldwide",
-        "description": "Comprehensive SEO: Page 1 organic rankings, 300% traffic growth. Keyword research, technical audits, local SEO, and link building."
-    };
+interface SeoOptimizationServiceProps {
+    locationOverride?: string;
+}
+
+export default function SeoOptimizationService({ locationOverride }: SeoOptimizationServiceProps) {
+    const isOkhla = locationOverride?.toLowerCase().includes('okhla');
+
+    // Massy Title Logic
+    const pageTitle = isOkhla
+        ? `#1 SEO Services in ${locationOverride} Industrial Estate for Manufacturers`
+        : locationOverride
+            ? `SEO Optimization & Search Dominance in ${locationOverride}`
+            : "SEO Optimization & Search Dominance";
+
+    const schemas = [
+        {
+            "@context": "https://schema.org",
+            "@type": "Service",
+            "serviceType": "Search Engine Optimization",
+            "provider": {
+                "@type": "Organization",
+                "name": "BYS Marketing",
+                "url": "https://bys.marketing"
+            },
+            "areaServed": locationOverride || "Worldwide",
+            "description": isOkhla
+                ? `Specialized local SEO, technical optimization, and content strategies to dominate search results in ${locationOverride}.`
+                : "Mathematical, intent-driven organic optimization that outranks competitors and delivers sustainable traffic."
+        },
+        {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bys.marketing" },
+                { "@type": "ListItem", "position": 2, "name": "Services", "item": "https://bys.marketing/services" },
+                { "@type": "ListItem", "position": 3, "name": isOkhla ? `SEO ${locationOverride}` : "SEO Optimization", "item": `https://bys.marketing${locationOverride ? `/in/${locationOverride.toLowerCase().replace(/ /g, '-')}` : ''}/services/seo` }
+            ]
+        }
+    ];
 
     return (
         <div className="bg-background-light dark:bg-background-dark font-display text-text-main dark:text-text-main-dark min-h-screen flex justify-center selection:bg-primary selection:text-white overflow-x-hidden">
             <SEOHead
-                title="SEO Optimization & Search Dominance"
-                description="Page 1 organic rankings. 300% traffic growth. Technical SEO audits, keyword research, local SEO, and authority link building strategies."
-                url="https://bys.marketing/services/seo"
-                schema={schema}
-                keywords="SEO optimization, search engine optimization, keyword research, technical SEO, local SEO, link building, Google rankings, BYS Marketing"
+                title={pageTitle}
+                description={isOkhla
+                    ? `Top SEO agency in ${locationOverride}. Dominate local search, outrank competitors, and drive high-intent organic traffic to your business.`
+                    : "Advanced Search Engine Optimization services. Mathematical, intent-driven strategies that consistently secure top Google rankings and sustainable growth."}
+                url={`https://bys.marketing${locationOverride ? `/in/${locationOverride.toLowerCase().replace(/ /g, '-')}` : ''}/services/seo`}
+                schema={schemas}
+                keywords={`${isOkhla ? `SEO ${locationOverride}, best seo agency ${locationOverride}, industrial seo experts, ` : ''}SEO optimization, search engine optimization, keyword research, technical SEO, local SEO, link building, Google rankings, BYS Marketing`}
             />
             <div className="fixed top-0 left-0 w-full h-full overflow-hidden -z-10 pointer-events-none">
                 <div className="absolute top-[-15%] left-[-10%] w-[50vw] h-[50vw] bg-purple-100 dark:bg-purple-900/20 rounded-full blur-[120px] opacity-40"></div>
@@ -76,6 +109,9 @@ export default function SeoOptimizationService() {
                         <p className="text-xs text-text-sub dark:text-text-sub-dark uppercase tracking-wide font-bold">Traffic Growth</p>
                     </div>
                 </section>
+
+                {/* Okhla Personal Narrative */}
+                <OkhlaStory location={locationOverride} />
 
                 {/* --- DESKTOP 2-COLUMN LAYOUT WRAPPER --- */}
                 <div className="flex flex-col lg:grid lg:grid-cols-[1fr_350px] xl:grid-cols-[1fr_380px] gap-12 lg:gap-16 items-start w-full">

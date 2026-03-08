@@ -15,6 +15,18 @@ export default function StartupSupport() {
     const schemas = [
         {
             "@context": "https://schema.org",
+            "@type": "Service",
+            "serviceType": "Startup Support & Acceleration",
+            "provider": {
+                "@type": "Organization",
+                "name": "BYS Marketing",
+                "url": "https://bys.marketing"
+            },
+            "areaServed": "Worldwide",
+            "description": "Comprehensive startup acceleration: GTM strategy, investor pitch decks, MVP development, and growth hacking for seed-stage startups."
+        },
+        {
+            "@context": "https://schema.org",
             "@type": "BreadcrumbList",
             "itemListElement": [
                 { "@type": "ListItem", "position": 1, "name": "BYS Marketing", "item": "https://bys.marketing" },
@@ -27,7 +39,7 @@ export default function StartupSupport() {
             "name": "BYS Marketing",
             "image": "https://bys.marketing/logo.png",
             "url": "https://bys.marketing",
-            "telephone": "+918802803681",
+            "telephone": "+918383894893",
             "priceRange": "$$",
             "address": { "@type": "PostalAddress", "streetAddress": "A-115, Harkesh Nagar, Okhla", "addressLocality": "New Delhi", "addressRegion": "Delhi", "postalCode": "110020", "addressCountry": "IN" }
         },
@@ -36,9 +48,8 @@ export default function StartupSupport() {
             "@type": "FAQPage",
             "mainEntity": [
                 { "@type": "Question", "name": "What if I can't afford any marketing services right now?", "acceptedAnswer": { "@type": "Answer", "text": "Then we'll tell you exactly that. We'll give you a free, honest roadmap of what you can do yourself for zero cost, and when you're ready, we'll be here. We don't pressure. Period." } },
-                { "@type": "Question", "name": "Will you be honest if my business idea needs work?", "acceptedAnswer": { "@type": "Answer", "text": "100%. We would rather give you a hard truth that saves you lakhs than a comfortable lie that bankrupts you. That's the difference between a friend and a vendor." } },
-                { "@type": "Question", "name": "Do you take equity instead of payment?", "acceptedAnswer": { "@type": "Answer", "text": "We don't currently operate on an equity model. However, for truly exceptional ideas, we're open to exploring hybrid models — reduced fees in exchange for a small advisory role. Let's talk." } },
-                { "@type": "Question", "name": "How is BYS different from other agencies for startups?", "acceptedAnswer": { "@type": "Answer", "text": "Most agencies upsell you services you don't need. We actively tell you what to SKIP. Our goal is your survival first, then growth. We connect you to our network for hardware, legal, and more — far beyond just marketing." } }
+                { "@type": "Question", "name": "How does the 'Growth Mapping' session work?", "acceptedAnswer": { "@type": "Answer", "text": "It's a deep-dive into your numbers, your market, and your immediate bottlenecks. We strip away the fluff and build a direct line to your next revenue milestone." } },
+                { "@type": "Question", "name": "Can you help us secure funding?", "acceptedAnswer": { "@type": "Answer", "text": "While we aren't investors, our pitch deck design and GTM strategies are directly responsible for several successful seed and Series A rounds for our clients." } }
             ]
         }
     ];
@@ -125,7 +136,7 @@ export default function StartupSupport() {
                     <ScrollReveal delay={0.3}>
                         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
                             <a
-                                href="https://wa.me/+918802803681?text=Hi%2C%20I%27m%20a%20startup%20founder%20and%20I%20need%20honest%20advice%20about%20my%20digital%20presence."
+                                href="https://wa.me/+918383894893?text=Hi%2C%20I%27m%20a%20startup%20founder%20and%20I%20need%20honest%20advice%20about%20my%20digital%20presence."
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="w-full sm:w-auto px-8 py-4 bg-primary text-white font-black text-lg rounded-2xl shadow-[0_0_25px_rgba(104,54,244,0.4)] hover:shadow-[0_0_40px_rgba(104,54,244,0.6)] hover:-translate-y-1 transition-all duration-300 flex items-center justify-center gap-3 group"
@@ -378,7 +389,7 @@ export default function StartupSupport() {
                                     ))}
                                 </ul>
                                 <a
-                                    href={`https://wa.me/+918802803681?text=Hi%2C%20I'm%20a%20startup%20interested%20in%20the%20${encodeURIComponent(plan.name)}%20plan`}
+                                    href={`https://wa.me/+918383894893?text=Hi%2C%20I'm%20a%20startup%20interested%20in%20the%20${encodeURIComponent(plan.name)}%20plan`}
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className={`w-full py-3.5 rounded-xl font-bold text-center transition-all duration-300 block ${plan.highlight
@@ -507,7 +518,7 @@ export default function StartupSupport() {
                             </p>
                             <div className="flex flex-col sm:flex-row gap-4 justify-center">
                                 <a
-                                    href="https://wa.me/+918802803681?text=Hi%2C%20I%27m%20a%20startup%20founder.%20Can%20we%20have%20an%20honest%20conversation%20about%20my%20digital%20needs?"
+                                    href="https://wa.me/+918383894893?text=Hi%2C%20I%27m%20a%20startup%20founder.%20Can%20we%20have%20an%20honest%20conversation%20about%20my%20digital%20needs?"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="py-5 px-10 bg-primary text-white font-black text-lg rounded-2xl shadow-[0_0_30px_rgba(104,54,244,0.4)] hover:shadow-[0_0_50px_rgba(104,54,244,0.6)] hover:scale-[1.03] active:scale-95 hover:bg-primary-dark transition-all inline-flex items-center justify-center gap-3 group"

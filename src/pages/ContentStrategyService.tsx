@@ -15,23 +15,46 @@ import Waves from '../components/ReactBits/Waves';
 import DesktopSidebar from '../components/DesktopSidebar';
 import ServiceCrossLinks from '../components/ServiceCrossLinks';
 
-export default function ContentStrategyService() {
-    const schema = {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "serviceType": "Content Strategy",
-        "provider": { "@type": "Organization", "name": "BYS Marketing", "url": "https://bys.marketing" },
-        "areaServed": "Worldwide",
-        "description": "Data-driven content strategy including blog management, email marketing, copywriting, and whitepapers. 2.4x content efficiency."
-    };
+interface ContentStrategyServiceProps {
+    locationOverride?: string;
+}
+
+export default function ContentStrategyService({ locationOverride }: ContentStrategyServiceProps) {
+    const pageTitle = locationOverride
+        ? `Content Strategy & Marketing Services in ${locationOverride}`
+        : "Content Strategy & Marketing Services";
+
+    const schemas = [
+        {
+            "@context": "https://schema.org",
+            "@type": "Service",
+            "serviceType": "Content Strategy",
+            "provider": {
+                "@type": "Organization",
+                "name": "BYS Marketing",
+                "url": "https://bys.marketing"
+            },
+            "areaServed": locationOverride || "Worldwide",
+            "description": "High-converting SEO content, brand copywriting, technical writing, and automated content pipelines for enterprise scaling."
+        },
+        {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bys.marketing" },
+                { "@type": "ListItem", "position": 2, "name": "Services", "item": "https://bys.marketing/services" },
+                { "@type": "ListItem", "position": 3, "name": "Content Strategy", "item": `https://bys.marketing${locationOverride ? `/in/${locationOverride.toLowerCase().replace(/ /g, '-')}` : ''}/services/content` }
+            ]
+        }
+    ];
 
     return (
         <div className="bg-background-light dark:bg-background-dark font-display text-text-main dark:text-text-main-dark min-h-screen flex justify-center selection:bg-primary selection:text-white overflow-x-hidden">
             <SEOHead
-                title="Content Strategy & Marketing Services"
-                description="2.4x content efficiency. Blog strategy, email marketing, copywriting & whitepapers that position your brand as the industry authority."
-                url="https://bys.marketing/services/content-strategy"
-                schema={schema}
+                title={pageTitle}
+                description="High-converting SEO content strategy, brand copywriting, technical writing, and automated media pipelines. We create content that ranks and converts."
+                url={`https://bys.marketing${locationOverride ? `/in/${locationOverride.toLowerCase().replace(/ /g, '-')}` : ''}/services/content`}
+                schema={schemas}
                 keywords="content strategy, blog marketing, email marketing, copywriting, whitepapers, content marketing agency, SEO content, BYS Marketing"
             />
             {/* Background Orbs */}

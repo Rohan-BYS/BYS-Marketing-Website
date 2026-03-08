@@ -14,23 +14,44 @@ import {
 import SEOHead from '../components/SEOHead';
 import ServiceCrossLinks from '../components/ServiceCrossLinks';
 
-export default function ITHardwareService() {
-    const schema = {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "serviceType": "IT Hardware Solutions",
-        "provider": { "@type": "Organization", "name": "BYS Marketing", "url": "https://bys.marketing" },
-        "areaServed": "Worldwide",
-        "description": "Enterprise-grade IT hardware: servers, workstations, networking, infrastructure setup, and 24/7 maintenance with 99.9% uptime guarantee."
-    };
+interface ITHardwareServiceProps {
+    locationOverride?: string;
+}
+
+export default function ITHardwareService({ locationOverride }: ITHardwareServiceProps) {
+    const pageTitle = "Enterprise IT Hardware Solutions"; // Placeholder, adjust as needed
+
+    const schemas = [
+        {
+            "@context": "https://schema.org",
+            "@type": "Service",
+            "serviceType": "IT Hardware Solutions",
+            "provider": {
+                "@type": "Organization",
+                "name": "BYS Marketing",
+                "url": "https://bys.marketing"
+            },
+            "areaServed": locationOverride || "Worldwide",
+            "description": "Enterprise-grade IT infrastructure, corporate hardware procurement, and secure network setup for scaling businesses."
+        },
+        {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bys.marketing" },
+                { "@type": "ListItem", "position": 2, "name": "Services", "item": "https://bys.marketing/services" },
+                { "@type": "ListItem", "position": 3, "name": "IT Hardware", "item": `https://bys.marketing${locationOverride ? `/in/${locationOverride.toLowerCase().replace(/ /g, '-')}` : ''}/services/it-hardware` }
+            ]
+        }
+    ];
 
     return (
         <div className="bg-background-light dark:bg-background-dark font-display text-text-main dark:text-text-main-dark min-h-screen flex flex-col items-center selection:bg-primary selection:text-white overflow-x-hidden">
             <SEOHead
-                title="Enterprise IT Hardware Solutions"
-                description="Enterprise-grade servers, workstations & networking. 5k+ units deployed, 50+ OEM partners, 99.9% uptime. Direct procurement from Dell, HP, Cisco."
-                url="https://bys.marketing/services/it-hardware"
-                schema={schema}
+                title={pageTitle}
+                description="Enterprise IT Hardware solutions and infrastructure setup. Premium procurement, network security, and scalable tech deployments for modern offices."
+                url={`https://bys.marketing${locationOverride ? `/in/${locationOverride.toLowerCase().replace(/ /g, '-')}` : ''}/services/it-hardware`}
+                schema={schemas}
                 keywords="IT hardware, enterprise servers, networking solutions, server procurement, IT infrastructure, workstations, Dell, HP, Cisco, BYS Marketing"
             />
             {/* Background Orbs */}

@@ -7,29 +7,58 @@ import SEOHead from '../components/SEOHead';
 import DesktopSidebar from '../components/DesktopSidebar';
 import ServiceCrossLinks from '../components/ServiceCrossLinks';
 import Waves from '../components/ReactBits/Waves';
+import OkhlaStory from '../components/OkhlaStory';
 
-export default function WebDevService() {
-    const schema = {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "serviceType": "Web Development",
-        "provider": {
-            "@type": "Organization",
-            "name": "BYS Marketing",
-            "url": "https://bys.marketing"
+interface WebDevServiceProps {
+    locationOverride?: string;
+}
+
+export default function WebDevService({ locationOverride }: WebDevServiceProps) {
+    const isOkhla = locationOverride?.toLowerCase().includes('okhla');
+
+    // Massy Title Logic
+    const pageTitle = isOkhla
+        ? `Best Web Development Company in ${locationOverride} Phase 1, 2, 3`
+        : locationOverride
+            ? `Premium Web Development Services in ${locationOverride}`
+            : "Premium Web Development Services";
+
+    const schemas = [
+        {
+            "@context": "https://schema.org",
+            "@type": "Service",
+            "serviceType": "Web Development",
+            "provider": {
+                "@type": "Organization",
+                "name": "BYS Marketing",
+                "url": "https://bys.marketing"
+            },
+            "areaServed": locationOverride || "Worldwide",
+            "description": isOkhla
+                ? `Specialized high-performance web development for businesses in ${locationOverride}. We build growth machines for industrial leaders and exporters.`
+                : "Premium, high-performance web development services including React, Next.js, and headless CMS architectures. We build growth machines that load in under 0.4 seconds."
         },
-        "areaServed": "Worldwide",
-        "description": "Premium, high-performance web development services including React, Next.js, and headless CMS architectures. We build growth machines that load in under 0.4 seconds."
-    };
+        {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bys.marketing" },
+                { "@type": "ListItem", "position": 2, "name": "Services", "item": "https://bys.marketing/services" },
+                { "@type": "ListItem", "position": 3, "name": isOkhla ? `Web Development ${locationOverride}` : "Web Development", "item": `https://bys.marketing${locationOverride ? `/in/${locationOverride.toLowerCase().replace(/ /g, '-')}` : ''}/services/web-development` }
+            ]
+        }
+    ];
 
     return (
         <main className="flex flex-col gap-12 lg:gap-20 px-6 pt-8 max-w-[1440px] lg:px-12 mx-auto w-full pb-40">
             <SEOHead
-                title="Premium Web Development Services"
-                description="High-performance web development using React, Next.js & Node.js. Sub-0.4s load times, 99+ Google PageSpeed scores. We architect growth machines."
-                url="https://bys.marketing/services/web-development"
-                schema={schema}
-                keywords="web development, React development, Next.js agency, premium web design, high-performance websites, headless CMS, Node.js, BYS Marketing"
+                title={pageTitle}
+                description={isOkhla
+                    ? `Top-rated web development agency in ${locationOverride}. Specializing in B2B portals, export websites, and industrial E-commerce with sub-0.4s load times.`
+                    : "High-performance web development using React, Next.js & Node.js. Sub-0.4s load times, 99+ Google PageSpeed scores. We architect growth machines."}
+                url={`https://bys.marketing${locationOverride ? `/in/${locationOverride.toLowerCase().replace(/ /g, '-')}` : ''}/services/web-development`}
+                schema={schemas}
+                keywords={`${isOkhla ? `web development ${locationOverride}, best agency ${locationOverride}, industrial website design, ` : ''}web development, React development, Next.js agency, premium web design, high-performance websites, headless CMS, Node.js, BYS Marketing`}
             />
 
             {/* HERO SECTION */}
@@ -94,6 +123,9 @@ export default function WebDevService() {
                     </div>
                 </div>
             </section>
+
+            {/* Okhla Personal Narrative */}
+            <OkhlaStory location={locationOverride} />
 
             {/* --- DESKTOP 2-COLUMN LAYOUT WRAPPER --- */}
             <div className="flex flex-col lg:grid lg:grid-cols-[1fr_350px] xl:grid-cols-[1fr_380px] gap-12 lg:gap-16 items-start w-full">

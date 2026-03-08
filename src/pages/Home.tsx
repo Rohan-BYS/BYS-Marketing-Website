@@ -1,4 +1,5 @@
 import ScrollReveal from '../components/ScrollReveal';
+import SEOHead from '../components/SEOHead';
 import { ArrowForward } from '@mui/icons-material';
 import {
     Zap, BarChart3, Target, ShieldCheck,
@@ -28,7 +29,84 @@ export default function Home() {
         checkMobile();
         window.addEventListener('resize', checkMobile);
         return () => window.removeEventListener('resize', checkMobile);
-    }, []); const services = [
+    }, []);
+
+    // ─── COMPREHENSIVE SCHEMA FOR GOOGLE SITELINKS / KNOWLEDGE PANEL ───────────
+    const homeSchemas = [
+        // 1. WebSite + Sitelinks Searchbox — tells Google to show a search bar in results
+        {
+            "@context": "https://schema.org",
+            "@type": "WebSite",
+            "name": "BYS Marketing",
+            "url": "https://bys.marketing",
+            "potentialAction": {
+                "@type": "SearchAction",
+                "target": {
+                    "@type": "EntryPoint",
+                    "urlTemplate": "https://bys.marketing/blog?q={search_term_string}"
+                },
+                "query-input": "required name=search_term_string"
+            }
+        },
+        // 2. Organization — builds Knowledge Panel on Google with social links, logo, contact
+        {
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "BYS Marketing",
+            "alternateName": "BYS",
+            "url": "https://bys.marketing",
+            "logo": "https://bys.marketing/logo.png",
+            "description": "BYS Marketing is a New Delhi-based full-service digital agency specialising in performance web development, SEO, social media marketing, UI/UX design, and IT solutions for businesses across India.",
+            "foundingDate": "2016",
+            "founders": [{ "@type": "Person", "name": "Rohan Chaudhary" }],
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "New Delhi",
+                "addressRegion": "Delhi",
+                "postalCode": "110025",
+                "addressCountry": "IN"
+            },
+            "contactPoint": {
+                "@type": "ContactPoint",
+                "telephone": "+918383894893",
+                "contactType": "customer service",
+                "areaServed": "IN",
+                "availableLanguage": ["English", "Hindi"]
+            },
+            "sameAs": [
+                "https://www.instagram.com/bys.marketing",
+                "https://www.linkedin.com/company/bys-marketing",
+                "https://twitter.com/bysmarketing",
+                "https://www.youtube.com/@bysmarketing"
+            ]
+        },
+        // 3. SiteNavigationElement — tells Google the structure for Sitelinks
+        {
+            "@context": "https://schema.org",
+            "@type": "SiteNavigationElement",
+            "name": ["Services", "Portfolio", "Blog", "Service Areas", "About Us", "Contact", "Exclusive Offers"],
+            "url": [
+                "https://bys.marketing/services",
+                "https://bys.marketing/portfolio",
+                "https://bys.marketing/blog",
+                "https://bys.marketing/service-areas",
+                "https://bys.marketing/about",
+                "https://bys.marketing/contact",
+                "https://bys.marketing/offers"
+            ]
+        },
+        // 4. BreadcrumbList for the homepage
+        {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bys.marketing" }
+            ]
+        }
+    ];
+
+    const services = [
+
         { icon: Server, title: 'Performance Engineering', desc: 'Lightning-fast, headless architectures that score 99+ on Lighthouse.', color: 'text-blue-500', link: '/services/web-development' },
         { icon: Search, title: 'SEO Dominance', desc: 'Mathematical, intent-driven organic optimization that outranks competitors.', color: 'text-green-500', link: '/services/digital-marketing' },
         { icon: Target, title: 'Paid Acquisition', desc: 'Hyper-targeted ad campaigns designed strictly for maximum ROAS.', color: 'text-orange-500', link: '/services/digital-marketing' },
@@ -77,6 +155,13 @@ export default function Home() {
 
     return (
         <main className="flex flex-col gap-16 md:gap-24 pt-4 pb-32 mx-auto w-full">
+            <SEOHead
+                title="BYS Marketing — Performance Digital Agency | Delhi NCR"
+                description="BYS Marketing is a New Delhi-based full-service digital agency specialising in web development, SEO, digital marketing, UI/UX design, and IT solutions for businesses across India."
+                url="https://bys.marketing"
+                keywords="digital marketing agency Delhi, web development agency India, SEO agency Delhi NCR, BYS Marketing, performance marketing, UI UX design agency"
+                schema={homeSchemas}
+            />
 
             {/* 2. HERO SECTION */}
             <section className="relative w-full overflow-hidden text-center">

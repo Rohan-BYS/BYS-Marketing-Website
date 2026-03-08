@@ -7,6 +7,7 @@ interface SEOHeadProps {
     image?: string;
     schema?: Record<string, any> | any[];
     keywords?: string;
+    noIndex?: boolean;
 }
 
 export default function SEOHead({
@@ -15,36 +16,42 @@ export default function SEOHead({
     url = 'https://bys.marketing',
     image = 'https://bys.marketing/og-image.jpg',
     schema,
-    keywords = 'Digital Marketing, Web Development, SEO, BYS Marketing'
+    keywords = 'Digital Marketing, Web Development, SEO, BYS Marketing',
+    noIndex = false
 }: SEOHeadProps) {
+    console.log('SEOHead Rendering:', { title, description, keywords });
     const fullTitle = `${title} | BYS Marketing`;
 
     return (
         <Helmet>
-            <title>{fullTitle}</title>
-            <meta name="description" content={description} />
-            <meta name="keywords" content={keywords} />
+            <title data-rh="true">{fullTitle}</title>
+            {noIndex && <meta data-rh="true" name="robots" content="noindex, nofollow" />}
+            <meta data-rh="true" name="description" content={description} />
+            <meta data-rh="true" name="keywords" content={keywords} />
 
             {/* Open Graph / Facebook */}
-            <meta property="og:type" content="website" />
-            <meta property="og:url" content={url} />
-            <meta property="og:title" content={fullTitle} />
-            <meta property="og:description" content={description} />
-            <meta property="og:image" content={image} />
+            <meta data-rh="true" property="og:type" content="website" />
+            <meta data-rh="true" property="og:url" content={url} />
+            <meta data-rh="true" property="og:title" content={fullTitle} />
+            <meta data-rh="true" property="og:description" content={description} />
+            <meta data-rh="true" property="og:image" content={image} />
 
             {/* Twitter */}
-            <meta property="twitter:card" content="summary_large_image" />
-            <meta property="twitter:url" content={url} />
-            <meta property="twitter:title" content={fullTitle} />
-            <meta property="twitter:description" content={description} />
-            <meta property="twitter:image" content={image} />
+            <meta data-rh="true" property="twitter:card" content="summary_large_image" />
+            <meta data-rh="true" property="twitter:url" content={window.location.href} />
+            <meta data-rh="true" property="twitter:title" content={fullTitle} />
+            <meta data-rh="true" property="twitter:description" content={description} />
+            <meta data-rh="true" property="twitter:image" content={image} />
+
+            {/* Canonical Link */}
+            <link data-rh="true" rel="canonical" href={window.location.href} />
 
             {/* GEO / AI Search Optimization Guidelines */}
-            <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+            <meta data-rh="true" name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
 
             {/* Schema.org JSON-LD */}
             {schema && (
-                <script type="application/ld+json">
+                <script data-rh="true" type="application/ld+json">
                     {JSON.stringify(schema)}
                 </script>
             )}

@@ -4,25 +4,58 @@ import SEOHead from '../components/SEOHead';
 import Waves from '../components/ReactBits/Waves';
 import DesktopSidebar from '../components/DesktopSidebar';
 import ServiceCrossLinks from '../components/ServiceCrossLinks';
+import OkhlaStory from '../components/OkhlaStory';
 
-export default function DigitalMarketingService() {
-    const schema = {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "serviceType": "Digital Marketing",
-        "provider": { "@type": "Organization", "name": "BYS Marketing", "url": "https://bys.marketing" },
-        "areaServed": "Worldwide",
-        "description": "Data-driven digital marketing services with 3.5x average ROI. PPC, SEO, Social Growth, and Content Marketing that turns clicks into customers."
-    };
+interface DigitalMarketingServiceProps {
+    locationOverride?: string;
+}
+
+export default function DigitalMarketingService({ locationOverride }: DigitalMarketingServiceProps) {
+    const isOkhla = locationOverride?.toLowerCase().includes('okhla');
+
+    // Massy Title Logic
+    const pageTitle = isOkhla
+        ? `Top Digital Marketing Agency in ${locationOverride} – Lead Generation Experts`
+        : locationOverride
+            ? `Premium Digital Marketing Agency in ${locationOverride}`
+            : "Strategic Digital Marketing Services";
+
+    const schemas = [
+        {
+            "@context": "https://schema.org",
+            "@type": "Service",
+            "serviceType": "Digital Marketing",
+            "provider": {
+                "@type": "Organization",
+                "name": "BYS Marketing",
+                "url": "https://bys.marketing"
+            },
+            "areaServed": locationOverride || "Worldwide",
+            "description": isOkhla
+                ? `Specialized digital marketing, SEO, and lead generation for B2B industrial businesses in ${locationOverride}.`
+                : "Performance-based digital marketing, paid acquisition, and organic growth strategies. We scale brands profitably."
+        },
+        {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bys.marketing" },
+                { "@type": "ListItem", "position": 2, "name": "Services", "item": "https://bys.marketing/services" },
+                { "@type": "ListItem", "position": 3, "name": isOkhla ? `Digital Marketing ${locationOverride}` : "Digital Marketing", "item": `https://bys.marketing${locationOverride ? `/in/${locationOverride.toLowerCase().replace(/ /g, '-')}` : ''}/services/digital-marketing` }
+            ]
+        }
+    ];
 
     return (
         <main className="flex flex-col gap-12 lg:gap-20 px-6 pt-8 lg:px-12 max-w-[1440px] mx-auto w-full pb-40">
             <SEOHead
-                title="Strategic Digital Marketing Services"
-                description="Data-driven growth strategies with 3.5x average ROI. PPC, SEO, Content Marketing & Social Media campaigns that turn clicks into loyal customers."
-                url="https://bys.marketing/services/digital-marketing"
-                schema={schema}
-                keywords="digital marketing agency, PPC management, social media marketing, content marketing, ROI optimization, Google Ads, Meta Ads, BYS Marketing"
+                title={pageTitle}
+                description={isOkhla
+                    ? `Top digital marketing agency in ${locationOverride}. Drive B2B leads, scale your industrial brand, and dominate local search rankings.`
+                    : "Data-driven digital marketing agency. We specialize in paid acquisition, SEO, and comprehensive growth strategies that deliver measurable ROI."}
+                url={`https://bys.marketing${locationOverride ? `/in/${locationOverride.toLowerCase().replace(/ /g, '-')}` : ''}/services/digital-marketing`}
+                schema={schemas}
+                keywords={`${isOkhla ? `digital marketing ${locationOverride}, best agency ${locationOverride}, industrial b2b marketing, ` : ''}digital marketing agency, PPC management, social media marketing, content marketing, ROI optimization, Google Ads, Meta Ads, BYS Marketing`}
             />
 
             {/* HERO SECTION */}
@@ -73,6 +106,9 @@ export default function DigitalMarketingService() {
                     <p className="text-xs text-text-sub dark:text-text-sub-dark uppercase tracking-wide font-bold transition-colors">Campaign Monitoring</p>
                 </div>
             </section>
+
+            {/* Okhla Personal Narrative */}
+            <OkhlaStory location={locationOverride} />
 
             {/* --- DESKTOP 2-COLUMN LAYOUT WRAPPER --- */}
             <div className="flex flex-col lg:grid lg:grid-cols-[1fr_350px] xl:grid-cols-[1fr_380px] gap-12 lg:gap-16 items-start w-full">

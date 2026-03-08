@@ -4,16 +4,52 @@ import { Link } from 'react-router-dom';
 import SEOHead from '../components/SEOHead';
 
 export default function Contact() {
+    // ─── CONTACT PAGE SCHEMA ───────────
+    const contactSchemas = [
+        // 1. ContactPage / LocalBusiness / Organization integration
+        {
+            "@context": "https://schema.org",
+            "@type": "ContactPage",
+            "name": "Contact BYS Marketing",
+            "description": "Get in touch with BYS Marketing for performance web development, SEO, and digital marketing inquiries.",
+            "url": "https://bys.marketing/contact",
+            "mainEntity": {
+                "@type": "Organization",
+                "name": "BYS Marketing",
+                "telephone": "+918383894893",
+                "email": "hello@bys.marketing",
+                "address": {
+                    "@type": "PostalAddress",
+                    "streetAddress": "A-115, Harkesh Nagar, Okhla",
+                    "addressLocality": "New Delhi",
+                    "addressRegion": "Delhi",
+                    "postalCode": "110020",
+                    "addressCountry": "IN"
+                }
+            }
+        },
+        // 2. BreadcrumbList for Sitelinks
+        {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bys.marketing" },
+                { "@type": "ListItem", "position": 2, "name": "Contact", "item": "https://bys.marketing/contact" }
+            ]
+        }
+    ];
+
     return (
-        <main className="flex flex-col gap-8 px-6 pt-12 max-w-[1200px] mx-auto w-full pb-32">
+        <main className="flex flex-col gap-12 lg:gap-20 pt-4 pb-32 mx-auto w-full">
             <SEOHead
-                title="Contact BYS Marketing | Get a Free Consultation"
-                description="Contact BYS Marketing — Delhi NCR's full-stack digital growth agency. Get a free consultation for web development, SEO, digital marketing, media production, IT hardware, and cyber security services. Email: hello@bys.marketing"
-                keywords="contact BYS Marketing, digital marketing agency contact, free consultation, web development quote, SEO audit, Delhi NCR marketing agency"
+                title="Contact BYS Marketing | Start Your Project"
+                description="Ready to scale? Contact BYS Marketing in New Delhi for enterprise SEO, performance web development, and ROI-driven marketing campaigns."
+                url="https://bys.marketing/contact"
+                schema={contactSchemas}
             />
 
             {/* HERO SECTION */}
-            <section className="relative mt-2">
+            <section className="relative px-6 py-24 md:py-32 text-center w-full min-h-[50vh] flex flex-col items-center justify-center overflow-hidden">
                 <ScrollReveal>
                     <div className="glass-panel rounded-3xl p-8 md:p-12 relative overflow-hidden group shadow-floating border-white/60 dark:border-white/10 dark:shadow-glow-purple">
                         <div className="absolute -right-12 -top-12 w-56 h-56 bg-primary/10 dark:bg-primary/20 rounded-full blur-3xl group-hover:bg-primary/20 transition-all duration-500"></div>
@@ -74,7 +110,7 @@ export default function Contact() {
                         </div>
                         <div>
                             <h4 className="font-bold text-text-main dark:text-white text-sm">Call Us</h4>
-                            <p className="text-xs text-text-sub dark:text-text-sub-dark">+91 838 389 4893</p>
+                            <p className="text-xs text-text-sub dark:text-text-sub-dark">+918383894893</p>
                         </div>
                     </a>
                 </ScrollReveal>
@@ -100,7 +136,7 @@ export default function Contact() {
                             <div className="grid md:grid-cols-2 gap-5">
                                 <div className="flex flex-col gap-2">
                                     <label className="text-xs font-bold text-text-main dark:text-text-main-dark uppercase tracking-wider ml-1 transition-colors" htmlFor="phone">Phone (optional)</label>
-                                    <input className="w-full rounded-xl px-4 py-3.5 text-sm text-black dark:text-white bg-surface-light dark:bg-black/40 border-transparent focus:border-primary focus:ring-2 focus:ring-primary/20 shadow-inner dark:shadow-none placeholder-gray-400 dark:placeholder-gray-500 transition-all outline-none" id="phone" placeholder="+91 838 389 4893" type="tel" />
+                                    <input className="w-full rounded-xl px-4 py-3.5 text-sm text-black dark:text-white bg-surface-light dark:bg-black/40 border-transparent focus:border-primary focus:ring-2 focus:ring-primary/20 shadow-inner dark:shadow-none placeholder-gray-400 dark:placeholder-gray-500 transition-all outline-none" id="phone" placeholder="+918383894893" type="tel" />
                                 </div>
                                 <div className="flex flex-col gap-2">
                                     <label className="text-xs font-bold text-text-main dark:text-text-main-dark uppercase tracking-wider ml-1 transition-colors" htmlFor="budget">Estimated Budget</label>

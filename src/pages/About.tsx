@@ -3,6 +3,7 @@ import StarBorder from '../components/ReactBits/StarBorder';
 import { Suspense, lazy } from 'react';
 import LazySection from '../components/LazySection';
 import Magnet from '../components/ReactBits/Magnet';
+import SEOHead from '../components/SEOHead';
 import { Link } from 'react-router-dom';
 import {
     ArrowRight, Zap, Target, ShieldCheck, Rocket, Users, TrendingUp,
@@ -99,9 +100,36 @@ const awards = [
 ];
 
 export default function About() {
-    return (
-        <main className="flex flex-col gap-0 pb-32 w-full overflow-hidden">
+    // ─── ABOUT PAGE SCHEMA ───────────
+    const aboutSchemas = [
+        // 1. Organization schema to reinforce brand identity
+        {
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "BYS Marketing",
+            "url": "https://bys.marketing",
+            "logo": "https://bys.marketing/logo.png",
+            "description": "BYS Marketing is a New Delhi-based full-service digital agency specializing in performance web development, SEO, and digital marketing."
+        },
+        // 2. BreadcrumbList for Sitelinks
+        {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bys.marketing" },
+                { "@type": "ListItem", "position": 2, "name": "About Us", "item": "https://bys.marketing/about" }
+            ]
+        }
+    ];
 
+    return (
+        <main className="flex flex-col gap-16 md:gap-24 pt-4 pb-32 mx-auto w-full">
+            <SEOHead
+                title="About BYS Marketing | Performance Built. Growth Obsessed."
+                description="We are engineers, growth hackers, and operators based in New Delhi. We build high-performance web systems and deploy mathematical SEO."
+                url="https://bys.marketing/about"
+                schema={aboutSchemas}
+            />
             {/* ─── 1. HERO ─── */}
             <section className="relative min-h-[70vh] flex flex-col items-center justify-center text-center px-6 py-24 overflow-hidden">
                 {/* Background glow */}

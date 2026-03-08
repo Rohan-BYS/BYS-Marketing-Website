@@ -112,7 +112,7 @@ export default function BlogArticle() {
             "name": "BYS Marketing",
             "image": "https://bys.marketing/logo.png",
             "url": "https://bys.marketing",
-            "telephone": "+918802803681",
+            "telephone": "+918383894893",
             "priceRange": "$$",
             "address": {
                 "@type": "PostalAddress",

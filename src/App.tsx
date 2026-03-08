@@ -43,6 +43,8 @@ const HostingerOffer = React.lazy(() => import('./pages/HostingerOffer'));
 const StartupSupport = React.lazy(() => import('./pages/StartupSupport'));
 const LocalizedServiceWrapper = React.lazy(() => import('./pages/LocalizedServiceWrapper'));
 const LocationsSitemap = React.lazy(() => import('./pages/LocationsSitemap'));
+const OkhlaServicesHub = React.lazy(() => import('./pages/OkhlaServicesHub'));
+const ServiceAreas = React.lazy(() => import('./pages/ServiceAreas'));
 
 function App() {
   return (
@@ -84,7 +86,12 @@ function App() {
             <Route path="startups" element={<StartupSupport />} />
 
             {/* SEO Dynamic Localized Routes */}
+            {/* /locations — crawlers only (orphaned, noindex in component) */}
             <Route path="locations" element={<LocationsSitemap />} />
+            {/* /service-areas — human-facing city cards page */}
+            <Route path="service-areas" element={<ServiceAreas />} />
+            {/* Okhla Hub — specific route must come BEFORE the dynamic catch-all */}
+            <Route path="in/okhla-industrial-area" element={<OkhlaServicesHub />} />
             <Route path="in/:location/:serviceId" element={<LocalizedServiceWrapper />} />
           </Route>
         </Routes>

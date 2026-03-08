@@ -3,18 +3,24 @@ import SEOHead from '../components/SEOHead';
 import { ArrowRight, MapPin } from 'lucide-react';
 import ScrollReveal from '../components/ScrollReveal';
 
-// Target highest-intent SEO locations for Phase 1
+// Target highest-intent SEO locations synchronized with ServiceAreas.tsx
 const targetLocations = [
-    { name: 'Delhi NCR', slug: 'delhi-ncr' },
-    { name: 'New Delhi', slug: 'new-delhi' },
+    { name: 'Okhla Industrial Area', slug: 'okhla-industrial-area' },
+    { name: 'Connaught Place', slug: 'connaught-place' },
     { name: 'Gurugram', slug: 'gurugram' },
     { name: 'Noida', slug: 'noida' },
+    { name: 'Lajpat Nagar', slug: 'lajpat-nagar' },
     { name: 'Faridabad', slug: 'faridabad' },
+    { name: 'Karol Bagh', slug: 'karol-bagh' },
+    { name: 'Chandni Chowk', slug: 'chandni-chowk' },
+    { name: 'Nehru Place', slug: 'nehru-place' },
+    { name: 'Rohini', slug: 'rohini' },
+    { name: 'Dwarka', slug: 'dwarka' },
     { name: 'Mumbai', slug: 'mumbai' },
     { name: 'Bengaluru', slug: 'bengaluru' },
-    { name: 'Pune', slug: 'pune' },
     { name: 'Hyderabad', slug: 'hyderabad' },
-    { name: 'India', slug: 'india' } // Broad national match
+    { name: 'Pune', slug: 'pune' },
+    { name: 'Ahmedabad', slug: 'ahmedabad' }
 ];
 
 const services = [
@@ -34,10 +40,10 @@ export default function LocationsSitemap() {
     return (
         <main className="flex flex-col gap-12 lg:gap-20 px-6 pt-24 max-w-[1440px] lg:px-12 mx-auto w-full pb-40">
             <SEOHead
-                title="Service Areas & Locations across India | BYS Marketing"
-                description="BYS Marketing provides premium web development, SEO, and digital marketing services across Delhi NCR, Gurugram, Noida, Mumbai, and pan-India."
+                title="Service Areas Directory — Complete Location Index | BYS Marketing"
+                description="Browse our complete directory of digital marketing, web development, and SEO services across major Indian cities and localities."
                 url="https://bys.marketing/locations"
-                keywords="BYS Marketing locations, local SEO services India, web development agency Delhi NCR, digital marketing Gurugram"
+                keywords="BYS Marketing locations, service areas directory, digital marketing India cities, web development NCR, SEO Mumbai Bengaluru"
             />
 
             <ScrollReveal>

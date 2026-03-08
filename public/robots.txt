@@ -1,0 +1,30 @@
+# BYS Marketing - robots.txt
+# https://bys.marketing
+
+User-agent: *
+Allow: /
+
+# Disallow admin and preview-only paths
+Disallow: /booking
+
+# Allow all major AI crawlers explicitly
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+# Sitemap location
+Sitemap: https://bys.marketing/sitemap.xml

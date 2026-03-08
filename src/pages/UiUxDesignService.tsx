@@ -12,23 +12,44 @@ import Waves from '../components/ReactBits/Waves';
 import DesktopSidebar from '../components/DesktopSidebar';
 import ServiceCrossLinks from '../components/ServiceCrossLinks';
 
-export default function UiUxDesignService() {
-    const schema = {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "serviceType": "UI/UX Design",
-        "provider": { "@type": "Organization", "name": "BYS Marketing", "url": "https://bys.marketing" },
-        "areaServed": "Worldwide",
-        "description": "Premium UI/UX design: wireframing, prototyping, visual design, and responsive layouts. Human-centered interfaces that convert users into customers."
-    };
+interface UiUxDesignServiceProps {
+    locationOverride?: string;
+}
+
+export default function UiUxDesignService({ locationOverride }: UiUxDesignServiceProps) {
+    const pageTitle = "Premium UI/UX Design Services";
+
+    const schemas = [
+        {
+            "@context": "https://schema.org",
+            "@type": "Service",
+            "serviceType": "UI/UX Design",
+            "provider": {
+                "@type": "Organization",
+                "name": "BYS Marketing",
+                "url": "https://bys.marketing"
+            },
+            "areaServed": locationOverride || "Worldwide",
+            "description": "High-conversion UI/UX design, wireframing, prototyping, and user research. We design digital products that users love."
+        },
+        {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bys.marketing" },
+                { "@type": "ListItem", "position": 2, "name": "Services", "item": "https://bys.marketing/services" },
+                { "@type": "ListItem", "position": 3, "name": "UI/UX Design", "item": `https://bys.marketing${locationOverride ? `/in/${locationOverride.toLowerCase().replace(/ /g, '-')}` : ''}/services/ui-ux-design` }
+            ]
+        }
+    ];
 
     return (
         <div className="bg-background-light dark:bg-background-dark font-display text-text-main dark:text-text-main-dark min-h-screen flex justify-center selection:bg-primary selection:text-white overflow-x-hidden">
             <SEOHead
-                title="Premium UI/UX Design Services"
-                description="Human-centered UI/UX design. Wireframing, prototyping, visual design & responsive layouts. Interfaces that convert users into loyal customers."
-                url="https://bys.marketing/services/ui-ux-design"
-                schema={schema}
+                title={pageTitle}
+                description="Premium UI/UX design agency. We craft highly intuitive, accessible, and conversion-optimized digital experiences that your users will actually love to use."
+                url={`https://bys.marketing${locationOverride ? `/in/${locationOverride.toLowerCase().replace(/ /g, '-')}` : ''}/services/ui-ux-design`}
+                schema={schemas}
                 keywords="UI/UX design, user interface design, user experience, wireframing, prototyping, responsive design, visual design, Figma, BYS Marketing"
             />
             <div className="fixed top-0 left-0 w-full h-full overflow-hidden -z-10 pointer-events-none">

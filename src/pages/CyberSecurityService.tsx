@@ -14,23 +14,44 @@ import Waves from '../components/ReactBits/Waves';
 import DesktopSidebar from '../components/DesktopSidebar';
 import ServiceCrossLinks from '../components/ServiceCrossLinks';
 
-export default function CyberSecurityService() {
-    const schema = {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "serviceType": "Cyber Security",
-        "provider": { "@type": "Organization", "name": "BYS Marketing", "url": "https://bys.marketing" },
-        "areaServed": "Worldwide",
-        "description": "Enterprise cyber security: zero-breach record, 24/7 threat mitigation, AES-256 encryption, GDPR/CCPA compliance, and firewall management."
-    };
+interface CyberSecurityServiceProps {
+    locationOverride?: string;
+}
+
+export default function CyberSecurityService({ locationOverride }: CyberSecurityServiceProps) {
+    const pageTitle = locationOverride ? `Enterprise Cyber Security in ${locationOverride}` : "Enterprise Cyber Security Services";
+
+    const schemas = [
+        {
+            "@context": "https://schema.org",
+            "@type": "Service",
+            "serviceType": "Cyber Security",
+            "provider": {
+                "@type": "Organization",
+                "name": "BYS Marketing",
+                "url": "https://bys.marketing"
+            },
+            "areaServed": locationOverride || "Worldwide",
+            "description": "Enterprise-grade cyber security, zero-trust architecture, penetration testing, and 24/7 threat monitoring for businesses."
+        },
+        {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bys.marketing" },
+                { "@type": "ListItem", "position": 2, "name": "Services", "item": "https://bys.marketing/services" },
+                { "@type": "ListItem", "position": 3, "name": "Cyber Security", "item": `https://bys.marketing${locationOverride ? `/in/${locationOverride.toLowerCase().replace(/ /g, '-')}` : ''}/services/security` }
+            ]
+        }
+    ];
 
     return (
         <div className="bg-background-light dark:bg-background-dark font-display text-text-main dark:text-text-main-dark min-h-screen flex justify-center selection:bg-primary selection:text-white overflow-x-hidden">
             <SEOHead
-                title="Enterprise Cyber Security Services"
-                description="Zero-breach record. 24/7 threat mitigation, AES-256 encryption, GDPR & CCPA compliance. Protect your digital assets with enterprise-grade security."
-                url="https://bys.marketing/services/cyber-security"
-                schema={schema}
+                title={pageTitle}
+                description="Enterprise cyber security, penetration testing, and network defense. Zero-Trust architecture to protect your brand and data assets."
+                url={`https://bys.marketing${locationOverride ? `/in/${locationOverride.toLowerCase().replace(/ /g, '-')}` : ''}/services/security`}
+                schema={schemas}
                 keywords="cyber security, data protection, AES-256 encryption, GDPR compliance, firewall management, security audits, threat mitigation, BYS Marketing"
             />
             {/* Background Orbs */}

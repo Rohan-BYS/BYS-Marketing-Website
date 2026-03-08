@@ -44,23 +44,23 @@ export default function FounderPortfolio() {
             {/* SOCIAL STRIP */}
             <section className="overflow-x-auto no-scrollbar py-4">
                 <div className="flex justify-between gap-4 min-w-max md:min-w-0 md:grid md:grid-cols-5">
-                    <a className="bg-white dark:bg-[#1a1a1a] rounded-2xl border border-gray-100 dark:border-white/5 shadow-neumorphic-sm dark:shadow-neumorphic-sm-dark p-4 flex flex-col items-center justify-center gap-2 w-32 md:w-auto h-28 hover:border-primary/50 dark:hover:border-primary/50 transition-colors group cursor-pointer" href="https://linkedin.com" target="_blank" rel="noreferrer">
+                    <a className="bg-white dark:bg-[#1a1a1a] rounded-2xl border border-gray-100 dark:border-white/5 shadow-neumorphic-sm dark:shadow-neumorphic-sm-dark p-4 flex flex-col items-center justify-center gap-2 w-32 md:w-auto h-28 hover:border-primary/50 dark:hover:border-primary/50 transition-colors group cursor-pointer" href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
                         <Linkedin className="w-8 h-8 opacity-80 group-hover:opacity-100 text-blue-600 dark:text-blue-400 transition-all" />
                         <span className="text-xs font-bold text-gray-500 dark:text-gray-400 group-hover:text-primary transition-colors">LinkedIn</span>
                     </a>
-                    <a className="bg-white dark:bg-[#1a1a1a] rounded-2xl border border-gray-100 dark:border-white/5 shadow-neumorphic-sm dark:shadow-neumorphic-sm-dark p-4 flex flex-col items-center justify-center gap-2 w-32 md:w-auto h-28 hover:border-primary/50 transition-colors group cursor-pointer" href="https://github.com" target="_blank" rel="noreferrer">
+                    <a className="bg-white dark:bg-[#1a1a1a] rounded-2xl border border-gray-100 dark:border-white/5 shadow-neumorphic-sm dark:shadow-neumorphic-sm-dark p-4 flex flex-col items-center justify-center gap-2 w-32 md:w-auto h-28 hover:border-primary/50 transition-colors group cursor-pointer" href="https://github.com" target="_blank" rel="noopener noreferrer">
                         <Github className="w-8 h-8 opacity-80 group-hover:opacity-100 text-gray-900 dark:text-white transition-all" />
                         <span className="text-xs font-bold text-gray-500 dark:text-gray-400 group-hover:text-primary transition-colors">GitHub</span>
                     </a>
-                    <a className="bg-white dark:bg-[#1a1a1a] rounded-2xl border border-gray-100 dark:border-white/5 shadow-neumorphic-sm dark:shadow-neumorphic-sm-dark p-4 flex flex-col items-center justify-center gap-2 w-32 md:w-auto h-28 hover:border-primary/50 transition-colors group cursor-pointer" href="https://instagram.com" target="_blank" rel="noreferrer">
+                    <a className="bg-white dark:bg-[#1a1a1a] rounded-2xl border border-gray-100 dark:border-white/5 shadow-neumorphic-sm dark:shadow-neumorphic-sm-dark p-4 flex flex-col items-center justify-center gap-2 w-32 md:w-auto h-28 hover:border-primary/50 transition-colors group cursor-pointer" href="https://instagram.com" target="_blank" rel="noopener noreferrer">
                         <Instagram className="w-8 h-8 text-gray-700 dark:text-gray-300 group-hover:text-pink-600 dark:group-hover:text-pink-400 transition-colors" />
                         <span className="text-xs font-bold text-gray-500 dark:text-gray-400 group-hover:text-primary transition-colors">Instagram</span>
                     </a>
-                    <a className="bg-white dark:bg-[#1a1a1a] rounded-2xl border border-gray-100 dark:border-white/5 shadow-neumorphic-sm dark:shadow-neumorphic-sm-dark p-4 flex flex-col items-center justify-center gap-2 w-32 md:w-auto h-28 hover:border-primary/50 transition-colors group cursor-pointer" href="https://facebook.com" target="_blank" rel="noreferrer">
+                    <a className="bg-white dark:bg-[#1a1a1a] rounded-2xl border border-gray-100 dark:border-white/5 shadow-neumorphic-sm dark:shadow-neumorphic-sm-dark p-4 flex flex-col items-center justify-center gap-2 w-32 md:w-auto h-28 hover:border-primary/50 transition-colors group cursor-pointer" href="https://facebook.com" target="_blank" rel="noopener noreferrer">
                         <Facebook className="w-8 h-8 opacity-80 group-hover:opacity-100 text-blue-500 dark:text-blue-400 transition-all" />
                         <span className="text-xs font-bold text-gray-500 dark:text-gray-400 group-hover:text-primary transition-colors">Facebook</span>
                     </a>
-                    <a className="bg-white dark:bg-[#1a1a1a] rounded-2xl border border-gray-100 dark:border-white/5 shadow-neumorphic-sm dark:shadow-neumorphic-sm-dark p-4 flex flex-col items-center justify-center gap-2 w-32 md:w-auto h-28 hover:border-primary/50 transition-colors group cursor-pointer" href="https://twitter.com" target="_blank" rel="noreferrer">
+                    <a className="bg-white dark:bg-[#1a1a1a] rounded-2xl border border-gray-100 dark:border-white/5 shadow-neumorphic-sm dark:shadow-neumorphic-sm-dark p-4 flex flex-col items-center justify-center gap-2 w-32 md:w-auto h-28 hover:border-primary/50 transition-colors group cursor-pointer" href="https://twitter.com" target="_blank" rel="noopener noreferrer">
                         <Twitter className="w-6 h-6 opacity-80 group-hover:opacity-100 text-blue-400 dark:text-blue-300 transition-all" />
                         <span className="text-xs font-bold text-gray-500 dark:text-gray-400 group-hover:text-primary transition-colors">X (Twitter)</span>
                     </a>
@@ -123,7 +123,7 @@ export default function FounderPortfolio() {
                     <img alt="Project Showreel Cover" className="absolute inset-0 w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCQ2LYcwclRnIGdFT09teGcUmDHIUU-n008GsOmrzU3LnjMbqM3BG1zy1F2CSj_fjMMvJ_SsX34Sr0kRqb_fjpqAAObgj6a5hIH0AzUdKOlAN1I7AbqbzKiDKTsMsWUlvjblOhoRALice3x4MESu8sr4IYM02qcpOwJzLhEvR19ZQtGWTHAi6AggIILaSgBOFJNZnK56Tpf2-Mqh_koBRTW3OcHzgTPMqH14WBvUcgT2WGV2OYxcfGCtuGxJLWEiHJ4qu6osAkr_0w" />
                     <div className="absolute inset-0 bg-black/30 group-hover:bg-black/20 transition-colors"></div>
                     <div className="absolute inset-0 flex items-center justify-center">
-                        <button className="w-20 h-20 rounded-full bg-white/20 backdrop-blur-md border border-white/40 flex items-center justify-center text-white hover:scale-110 transition-transform duration-300 group-hover:bg-primary/80 group-hover:border-primary">
+                        <button title="Play Showreel" className="w-20 h-20 rounded-full bg-white/20 backdrop-blur-md border border-white/40 flex items-center justify-center text-white hover:scale-110 transition-transform duration-300 group-hover:bg-primary/80 group-hover:border-primary">
                             <Play size={40} className="ml-1 fill-current" />
                         </button>
                     </div>
@@ -149,19 +149,20 @@ export default function FounderPortfolio() {
                             <h3 className="text-xl font-bold text-text-main dark:text-text-main-dark transition-colors">Tech Talk: Future of AI</h3>
                             <p className="text-sm text-text-sub dark:text-text-sub-dark mt-1 transition-colors">Episode 42 • 24 min</p>
                         </div>
-                        <button className="w-10 h-10 rounded-full bg-surface-light dark:bg-black/40 hover:bg-purple-50 hover:text-primary dark:hover:bg-primary/20 dark:hover:text-primary transition-colors flex items-center justify-center">
+                        <button title="More Podcast Options" className="w-10 h-10 rounded-full bg-surface-light dark:bg-black/40 hover:bg-purple-50 hover:text-primary dark:hover:bg-primary/20 dark:hover:text-primary transition-colors flex items-center justify-center">
                             <MoreHorizontal size={20} />
                         </button>
                     </div>
 
                     <div className="flex items-end justify-between gap-1 h-16 mt-4 opacity-70">
                         {Array.from({ length: 15 }).map((_, i) => (
+                            // eslint-disable-next-line react/forbid-dom-props
                             <div key={i} className="w-1.5 bg-primary rounded-full animate-pulse" style={{ height: `${Math.max(20, Math.random() * 100)}%`, animationDelay: `${i * 0.1}s` }} />
                         ))}
                     </div>
 
                     <div className="flex items-center gap-4 mt-4">
-                        <button className="w-10 h-10 rounded-full bg-primary text-white flex items-center justify-center shadow-lg shadow-purple-200 dark:shadow-purple-900/40 hover:scale-105 transition-transform shrink-0">
+                        <button title="Play Episode" className="w-10 h-10 rounded-full bg-primary text-white flex items-center justify-center shadow-lg shadow-purple-200 dark:shadow-purple-900/40 hover:scale-105 transition-transform shrink-0">
                             <Play size={18} className="fill-current" />
                         </button>
                         <div className="flex-1 h-1 bg-gray-200 dark:bg-gray-700/50 rounded-full overflow-hidden transition-colors">
@@ -199,7 +200,7 @@ export default function FounderPortfolio() {
                             ))}
                         </div>
                     </div>
-                    <a className="relative z-10 mt-4 text-xs flex items-center justify-between text-gray-400 hover:text-white transition-colors group" href="https://github.com" target="_blank" rel="noreferrer">
+                    <a className="relative z-10 mt-4 text-xs flex items-center justify-between text-gray-400 hover:text-white transition-colors group" href="https://github.com" target="_blank" rel="noopener noreferrer">
                         View all repositories
                         <ArrowRight size={14} className="group-hover:translate-x-1 transition-transform" />
                     </a>

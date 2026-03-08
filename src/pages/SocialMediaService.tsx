@@ -17,24 +17,44 @@ import Waves from '../components/ReactBits/Waves';
 import DesktopSidebar from '../components/DesktopSidebar';
 import ServiceCrossLinks from '../components/ServiceCrossLinks';
 
-export default function SocialMediaService() {
-    const schema = {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "serviceType": "Social Media Marketing",
-        "provider": { "@type": "Organization", "name": "BYS Marketing", "url": "https://bys.marketing" },
-        "areaServed": "Worldwide",
-        "description": "Data-driven social media marketing with 2.5M+ viral reach. Community management, content creation, influencer collaborations, and paid social campaigns."
-    };
+interface SocialMediaServiceProps {
+    locationOverride?: string;
+}
+
+export default function SocialMediaService({ locationOverride }: SocialMediaServiceProps) {
+    const pageTitle = locationOverride ? `Social Media Marketing in ${locationOverride}` : "Social Media Marketing Services";
+
+    const schemas = [
+        {
+            "@context": "https://schema.org",
+            "@type": "Service",
+            "serviceType": "Social Media Marketing",
+            "provider": {
+                "@type": "Organization",
+                "name": "BYS Marketing",
+                "url": "https://bys.marketing"
+            },
+            "areaServed": locationOverride || "Worldwide",
+            "description": "Data-driven social media management, community building, and viral content creation to amplify brand presence."
+        },
+        {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bys.marketing" },
+                { "@type": "ListItem", "position": 2, "name": "Services", "item": "https://bys.marketing/services" },
+                { "@type": "ListItem", "position": 3, "name": "Social Media", "item": `https://bys.marketing${locationOverride ? `/in/${locationOverride.toLowerCase().replace(/ /g, '-')}` : ''}/services/social` }
+            ]
+        }
+    ];
 
     return (
         <div className="bg-background-light dark:bg-background-dark font-display text-text-main dark:text-text-main-dark min-h-screen flex justify-center selection:bg-primary selection:text-white overflow-x-hidden">
             <SEOHead
-                title="Social Media Marketing Services"
-                description="2.5M+ viral reach. Community management, algorithm-optimized content, influencer collaborations & paid social campaigns that convert scrolls into sales."
-                url="https://bys.marketing/services/social-media"
-                schema={schema}
-                keywords="social media marketing, community management, influencer marketing, content creation, paid social, Instagram marketing, TikTok marketing, BYS Marketing"
+                title={pageTitle}
+                description="High-engagement social media management and brand building. Turn followers into loyal customers with our data-driven organic strategies."
+                url={`https://bys.marketing${locationOverride ? `/in/${locationOverride.toLowerCase().replace(/ /g, '-')}` : ''}/services/social`}
+                schema={schemas}
             />
             {/* Background Orbs */}
             <div className="fixed top-0 left-0 w-full h-full overflow-hidden -z-10 pointer-events-none">
@@ -68,7 +88,7 @@ export default function SocialMediaService() {
                                     <span>Start Campaign</span>
                                     <ArrowRight className="w-5 h-5 group-hover/btn:translate-x-1 transition-transform" />
                                 </button>
-                                <button className="w-14 h-14 rounded-2xl bg-white dark:bg-black/60 text-primary shadow-neumorphic-purple dark:shadow-none dark:border-white/10 flex items-center justify-center hover:scale-105 transition-transform border border-gray-50">
+                                <button title="Play Demo" className="w-14 h-14 rounded-2xl bg-white dark:bg-black/60 text-primary shadow-neumorphic-purple dark:shadow-none dark:border-white/10 flex items-center justify-center hover:scale-105 transition-transform border border-gray-50">
                                     <Play className="fill-current w-6 h-6 ml-1" />
                                 </button>
                             </div>

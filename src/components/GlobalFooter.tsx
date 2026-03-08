@@ -44,7 +44,7 @@ export default function GlobalFooter() {
                         <h3 className="font-bold text-text-main dark:text-text-main-dark transition-colors">Quick Links</h3>
                         <ul className="flex flex-col gap-3">
                             <li><Link to="/services" className="text-text-sub dark:text-text-sub-dark text-sm hover:text-primary dark:hover:text-primary transition-colors">All Services</Link></li>
-                            <li><Link to="/locations" className="text-text-sub dark:text-text-sub-dark text-sm hover:text-primary dark:hover:text-primary transition-colors">Service Areas</Link></li>
+                            <li><Link to="/service-areas" className="text-text-sub dark:text-text-sub-dark text-sm hover:text-primary dark:hover:text-primary transition-colors">Service Areas</Link></li>
                             <li><Link to="/website-demos" className="text-text-sub dark:text-text-sub-dark text-sm hover:text-primary dark:hover:text-primary transition-colors">Website Demos</Link></li>
                             <li><Link to="/faq" className="text-text-sub dark:text-text-sub-dark text-sm hover:text-primary dark:hover:text-primary transition-colors">Knowledge Base (FAQ)</Link></li>
                             <li><Link to="/contact" className="text-text-sub dark:text-text-sub-dark text-sm hover:text-primary dark:hover:text-primary transition-colors">Contact Us</Link></li>
@@ -72,7 +72,7 @@ export default function GlobalFooter() {
                             </li>
                             <li className="flex items-center gap-3">
                                 <Phone size={18} className="text-primary shrink-0" />
-                                <a href="tel:+918383894893" className="text-text-sub dark:text-text-sub-dark text-sm hover:text-primary transition-colors">+91 838 389 4893</a>
+                                <a href="tel:+918383894893" className="text-text-sub dark:text-text-sub-dark text-sm hover:text-primary transition-colors">+918383894893</a>
                             </li>
                             <li className="flex items-center gap-3">
                                 <Mail size={18} className="text-primary shrink-0" />
@@ -89,7 +89,8 @@ export default function GlobalFooter() {
                     <div className="flex flex-wrap justify-center md:justify-end gap-3 md:gap-4">
                         <Link to="/privacy" className="text-xs text-gray-500 dark:text-gray-400 hover:text-primary transition-colors">Privacy Policy</Link>
                         <Link to="/terms" className="text-xs text-gray-500 dark:text-gray-400 hover:text-primary transition-colors">Terms of Service</Link>
-                        <a href="/sitemap.xml" target="_blank" rel="noopener noreferrer" className="text-xs text-gray-500 dark:text-gray-400 hover:text-primary transition-colors">Sitemap</a>
+                        <a href="/sitemap.xml" target="_blank" rel="noopener noreferrer" className="text-xs text-gray-500 dark:text-gray-400 hover:text-primary transition-colors">Sitemap XML</a>
+                        <Link to="/locations" className="text-xs text-gray-500 dark:text-gray-400 hover:text-primary transition-colors">Detailed Directory</Link>
                         <a href="https://bys.marketing" className="text-xs text-gray-500 dark:text-gray-400 hover:text-primary transition-colors">bys.marketing</a>
                     </div>
                 </div>

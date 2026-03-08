@@ -1,11 +1,36 @@
-import { ArrowForward, FilterList, PlayCircle, Star } from '@mui/icons-material';
+import { ArrowRight as ArrowForward, Play as PlayCircle, ListFilter as FilterList, Star } from 'lucide-react';
 import { caseStudies } from '../data/caseStudies';
+import SEOHead from '../components/SEOHead';
 import CaseStudyCard from '../components/CaseStudyCard';
 
 export default function PortfolioHub() {
-    return (
-        <main className="flex flex-col gap-12 md:gap-20 px-6 md:px-12 pt-12 pb-32 max-w-[1280px] mx-auto w-full">
+    // ─── PORTFOLIO PAGE SCHEMA ───────────
+    const portfolioSchemas = [
+        {
+            "@context": "https://schema.org",
+            "@type": "CollectionPage",
+            "name": "BYS Marketing Case Studies & Portfolio",
+            "description": "Explore our successful projects in performance web development, technical SEO, and ROI-driven digital marketing.",
+            "url": "https://bys.marketing/portfolio"
+        },
+        {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bys.marketing" },
+                { "@type": "ListItem", "position": 2, "name": "Portfolio", "item": "https://bys.marketing/portfolio" }
+            ]
+        }
+    ];
 
+    return (
+        <main className="flex flex-col gap-16 md:gap-24 pt-4 pb-32 mx-auto w-full">
+            <SEOHead
+                title="Case Studies & Portfolio | BYS Marketing"
+                description="See how we generate 300%+ traffic growth and build sub-0.4s load time platforms. View BYS Marketing's case studies across SEO, web dev, and paid media."
+                url="https://bys.marketing/portfolio"
+                schema={portfolioSchemas}
+            />
             {/* HERO SECTION */}
             <section className="relative mt-4">
                 <div className="glass-panel rounded-[2.5rem] p-8 md:p-16 relative overflow-hidden group shadow-floating border-white/60 dark:border-white/5 dark:bg-[#1a1a1a]/80 transition-all">
@@ -72,7 +97,7 @@ export default function PortfolioHub() {
 
                     <button title="Play Video" className="absolute inset-0 w-full h-full flex items-center justify-center z-20 group-hover:opacity-100 opacity-0 transition-opacity duration-300">
                         <div className="w-20 h-20 rounded-full bg-white/20 backdrop-blur-md flex items-center justify-center text-white border border-white/40 hover:scale-110 transition-transform duration-300">
-                            <PlayCircle sx={{ fontSize: 40 }} />
+                            <PlayCircle size={40} />
                         </div>
                     </button>
                 </div>
@@ -134,7 +159,7 @@ export default function PortfolioHub() {
                         <div className="aspect-[9/16] bg-gray-900 flex items-center justify-center relative">
                             <img alt="Video Editing" className="absolute inset-0 w-full h-full object-cover opacity-80" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAs7EtNp6G6HytCv17tTOfU1rv8Kd8s5Eq3YtqRKfff4YfF2K_8cKiIeJFG7Ln6_vKH2zbA-mkAy1a6LF56GktbCbcIsnSp2D_4Vzk-A6Fdbs9JDcLuky0u0JbMjc_Wekv9mHFRiQ6ynEZEF64uwEGn9sgyHdELtZIge44vze_qbvo1xhcvOqgmPWF5l6Xyd291EWJIJMwAE52WYXA7-puUHyV3i69L9WOp4mteqE-EAquA9a8JV9iapz1I4rCXs4hWkpTqCs7VZi0" loading="lazy" />
                             <div className="absolute inset-0 flex items-center justify-center z-10">
-                                <PlayCircle sx={{ fontSize: 50 }} className="text-white" />
+                                <PlayCircle size={64} className="text-white drop-shadow-lg" />
                             </div>
                         </div>
                     </div>
