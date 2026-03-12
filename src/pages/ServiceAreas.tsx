@@ -29,7 +29,7 @@ const cities = [
     {
         name: 'Connaught Place',
         slug: 'connaught-place',
-        hubRoute: '/in/connaught-place/web-development',
+        hubRoute: '/in/connaught-place',
         state: 'New Delhi',
         tagline: 'Heart of Delhi\'s business & commercial hub',
         image: 'https://images.unsplash.com/photo-1545085563-c6bcf79c1bce?w=600&q=80&auto=format',
@@ -38,7 +38,7 @@ const cities = [
     {
         name: 'Gurugram',
         slug: 'gurugram',
-        hubRoute: '/in/gurugram/web-development',
+        hubRoute: '/in/gurugram',
         state: 'Haryana',
         tagline: 'Millennium City & India\'s startup capital',
         image: 'https://images.unsplash.com/photo-1612892483236-52d32a0e0ac1?w=600&q=80&auto=format',
@@ -47,7 +47,7 @@ const cities = [
     {
         name: 'Noida',
         slug: 'noida',
-        hubRoute: '/in/noida/web-development',
+        hubRoute: '/in/noida',
         state: 'Uttar Pradesh',
         tagline: 'IT & tech corridor of Delhi NCR',
         image: 'https://images.unsplash.com/photo-1566552881560-0be862a7c445?w=600&q=80&auto=format',
@@ -56,7 +56,7 @@ const cities = [
     {
         name: 'Lajpat Nagar',
         slug: 'lajpat-nagar',
-        hubRoute: '/in/lajpat-nagar/web-development',
+        hubRoute: '/in/lajpat-nagar',
         state: 'New Delhi',
         tagline: 'Delhi\'s premium retail & fashion district',
         image: 'https://images.unsplash.com/photo-1598164984293-b0879e0e0ee3?w=600&q=80&auto=format',
@@ -65,7 +65,7 @@ const cities = [
     {
         name: 'Faridabad',
         slug: 'faridabad',
-        hubRoute: '/in/faridabad/web-development',
+        hubRoute: '/in/faridabad',
         state: 'Haryana',
         tagline: 'Manufacturing powerhouse of Haryana',
         image: 'https://images.unsplash.com/photo-1624132903946-3a1278e4b0d3?w=600&q=80&auto=format',
@@ -74,7 +74,7 @@ const cities = [
     {
         name: 'Karol Bagh',
         slug: 'karol-bagh',
-        hubRoute: '/in/karol-bagh/web-development',
+        hubRoute: '/in/karol-bagh',
         state: 'New Delhi',
         tagline: 'Bustling electronics & retail market hub',
         image: 'https://images.unsplash.com/photo-1597735881925-8bddbe9c4905?w=600&q=80&auto=format',
@@ -83,7 +83,7 @@ const cities = [
     {
         name: 'Chandni Chowk',
         slug: 'chandni-chowk',
-        hubRoute: '/in/chandni-chowk/web-development',
+        hubRoute: '/in/chandni-chowk',
         state: 'New Delhi',
         tagline: 'Old Delhi\'s iconic wholesale trade capital',
         image: 'https://images.unsplash.com/photo-1587474260584-136574528ed5?w=600&q=80&auto=format',
@@ -92,7 +92,7 @@ const cities = [
     {
         name: 'Nehru Place',
         slug: 'nehru-place',
-        hubRoute: '/in/nehru-place/web-development',
+        hubRoute: '/in/nehru-place',
         state: 'New Delhi',
         tagline: 'Asia\'s largest IT & electronics market',
         image: 'https://images.unsplash.com/photo-1566552881560-0be862a7c445?w=600&q=80&auto=format',
@@ -101,7 +101,7 @@ const cities = [
     {
         name: 'Rohini',
         slug: 'rohini',
-        hubRoute: '/in/rohini/web-development',
+        hubRoute: '/in/rohini',
         state: 'New Delhi',
         tagline: 'North Delhi\'s fast-growing residential & commercial hub',
         image: 'https://images.unsplash.com/photo-1624132903946-3a1278e4b0d3?w=600&q=80&auto=format',
@@ -110,7 +110,7 @@ const cities = [
     {
         name: 'Dwarka',
         slug: 'dwarka',
-        hubRoute: '/in/dwarka/web-development',
+        hubRoute: '/in/dwarka',
         state: 'New Delhi',
         tagline: 'South-West Delhi\'s largest planned township',
         image: 'https://images.unsplash.com/photo-1612892483236-52d32a0e0ac1?w=600&q=80&auto=format',
@@ -119,7 +119,7 @@ const cities = [
     {
         name: 'Mumbai',
         slug: 'mumbai',
-        hubRoute: '/in/mumbai/web-development',
+        hubRoute: '/in/mumbai',
         state: 'Maharashtra',
         tagline: 'India\'s financial capital & commercial hub',
         image: 'https://images.unsplash.com/photo-1529253355930-ddbe423a2ac7?w=600&q=80&auto=format',
@@ -128,7 +128,7 @@ const cities = [
     {
         name: 'Bengaluru',
         slug: 'bengaluru',
-        hubRoute: '/in/bengaluru/web-development',
+        hubRoute: '/in/bengaluru',
         state: 'Karnataka',
         tagline: 'Silicon Valley of India & startup ecosystem',
         image: 'https://images.unsplash.com/photo-1596176530529-78163a4f7af2?w=600&q=80&auto=format',
@@ -137,7 +137,7 @@ const cities = [
     {
         name: 'Hyderabad',
         slug: 'hyderabad',
-        hubRoute: '/in/hyderabad/web-development',
+        hubRoute: '/in/hyderabad',
         state: 'Telangana',
         tagline: 'HITEC City & pharmaceutical capital',
         image: 'https://images.unsplash.com/photo-1629468128127-14b0e3bb86dc?w=600&q=80&auto=format',
@@ -146,7 +146,7 @@ const cities = [
     {
         name: 'Pune',
         slug: 'pune',
-        hubRoute: '/in/pune/web-development',
+        hubRoute: '/in/pune',
         state: 'Maharashtra',
         tagline: 'Oxford of the East & IT growth hub',
         image: 'https://images.unsplash.com/photo-1570168007204-dfb528c6958f?w=600&q=80&auto=format',
@@ -155,7 +155,7 @@ const cities = [
     {
         name: 'Ahmedabad',
         slug: 'ahmedabad',
-        hubRoute: '/in/ahmedabad/web-development',
+        hubRoute: '/in/ahmedabad',
         state: 'Gujarat',
         tagline: 'Gujarat\'s commercial heartbeat & textile capital',
         image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=80&auto=format',

@@ -46,6 +46,7 @@ const LocationsSitemap = React.lazy(() => import('./pages/LocationsSitemap'));
 const OkhlaServicesHub = React.lazy(() => import('./pages/OkhlaServicesHub'));
 const BadarpurServicesHub = React.lazy(() => import('./pages/BadarpurServicesHub'));
 const ServiceAreas = React.lazy(() => import('./pages/ServiceAreas'));
+const LocationHubRouter = React.lazy(() => import('./pages/LocationHubRouter'));
 
 function App() {
   return (
@@ -95,6 +96,8 @@ function App() {
             <Route path="in/okhla-industrial-area" element={<OkhlaServicesHub />} />
             {/* Badarpur Hub */}
             <Route path="in/badarpur-area" element={<BadarpurServicesHub />} />
+            {/* Dynamic Location Hubs (data-driven) */}
+            <Route path="in/:location" element={<LocationHubRouter />} />
             <Route path="in/:location/:serviceId" element={<LocalizedServiceWrapper />} />
           </Route>
         </Routes>
