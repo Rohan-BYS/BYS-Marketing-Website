@@ -47,6 +47,7 @@ const OkhlaServicesHub = React.lazy(() => import('./pages/OkhlaServicesHub'));
 const BadarpurServicesHub = React.lazy(() => import('./pages/BadarpurServicesHub'));
 const ServiceAreas = React.lazy(() => import('./pages/ServiceAreas'));
 const LocationHubRouter = React.lazy(() => import('./pages/LocationHubRouter'));
+const LocalAgencyServices = React.lazy(() => import('./pages/LocalAgencyServices'));
 
 function App() {
   return (
@@ -86,6 +87,9 @@ function App() {
             <Route path="terms" element={<TermsOfService />} />
             <Route path="hostinger-discount-code" element={<HostingerOffer />} />
             <Route path="startups" element={<StartupSupport />} />
+
+            {/* SEO Pillar Landing Page */}
+            <Route path="best-digital-marketing-web-development-agency-near-me" element={<LocalAgencyServices />} />
 
             {/* SEO Dynamic Localized Routes */}
             {/* /locations — crawlers only (orphaned, noindex in component) */}
