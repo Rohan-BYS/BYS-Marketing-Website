@@ -13,6 +13,7 @@ import { useState, useEffect, useRef, Suspense, lazy } from 'react';
 import LogoLoop from '../components/ReactBits/LogoLoop';
 import LazySection from '../components/LazySection';
 import MagicBento from '../components/ReactBits/MagicBento';
+import ROICalculator from '../components/ROICalculator';
 import { useRazorpay } from "react-razorpay";
 
 // Lazy load the heavy 3D Ballpit to prevent main thread blocking during initial render
@@ -578,6 +579,13 @@ export default function Home() {
                     </p>
                 </ScrollReveal>
             </section>
+
+            {/* 📊 ROI CALCULATOR — Dwell Time Booster */}
+            <LazySection fallbackHeight="600px">
+                <section className="px-6 max-w-[1200px] mx-auto w-full">
+                    <ROICalculator />
+                </section>
+            </LazySection>
 
             {/* Ready to Transform Section */}
             <section className="py-24 bg-primary text-white relative overflow-hidden">

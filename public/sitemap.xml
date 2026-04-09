@@ -3,196 +3,213 @@
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
-    <!-- Core Pages -->
     <url>
         <loc>https://bys.marketing/</loc>
-        <lastmod>2026-03-08</lastmod>
+        <lastmod>2026-04-09</lastmod>
         <changefreq>daily</changefreq>
-        <priority>1.0</priority>
+        <priority>1</priority>
     </url>
     <url>
         <loc>https://bys.marketing/about</loc>
-        <lastmod>2026-03-08</lastmod>
+        <lastmod>2026-04-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://bys.marketing/contact</loc>
-        <lastmod>2026-03-08</lastmod>
+        <lastmod>2026-04-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://bys.marketing/team</loc>
-        <lastmod>2026-03-08</lastmod>
+        <lastmod>2026-04-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://bys.marketing/careers</loc>
-        <lastmod>2026-03-08</lastmod>
+        <lastmod>2026-04-09</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://bys.marketing/faq</loc>
-        <lastmod>2026-03-08</lastmod>
+        <lastmod>2026-04-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
         <loc>https://bys.marketing/startups</loc>
-        <lastmod>2026-03-08</lastmod>
+        <lastmod>2026-04-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://bys.marketing/founder</loc>
-        <lastmod>2026-03-08</lastmod>
+        <lastmod>2026-04-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
         <loc>https://bys.marketing/services</loc>
-        <lastmod>2026-03-08</lastmod>
+        <lastmod>2026-04-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.95</priority>
     </url>
-	<url>
+    <url>
         <loc>https://bys.marketing/service-areas</loc>
-        <lastmod>2026-03-08</lastmod>
+        <lastmod>2026-04-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.95</priority>
     </url>
-	<url>
+    <url>
         <loc>https://bys.marketing/website-demos</loc>
-        <lastmod>2026-03-08</lastmod>
+        <lastmod>2026-04-09</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.85</priority>
     </url>
-	<url>
+    <url>
         <loc>https://bys.marketing/demos</loc>
-        <lastmod>2026-03-08</lastmod>
+        <lastmod>2026-04-09</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
-	<url>
+    <url>
         <loc>https://bys.marketing/sponsorship</loc>
-        <lastmod>2026-03-08</lastmod>
+        <lastmod>2026-04-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
-
-    <!-- Services -->
     <url>
         <loc>https://bys.marketing/services/web-development</loc>
-        <lastmod>2026-03-08</lastmod>
+        <lastmod>2026-04-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.95</priority>
     </url>
     <url>
         <loc>https://bys.marketing/services/seo</loc>
-        <lastmod>2026-03-08</lastmod>
+        <lastmod>2026-04-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://bys.marketing/services/digital-marketing</loc>
-        <lastmod>2026-03-08</lastmod>
+        <lastmod>2026-04-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://bys.marketing/services/design</loc>
-        <lastmod>2026-03-08</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://bys.marketing/services/media-production</loc>
-        <lastmod>2026-03-08</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://bys.marketing/services/security</loc>
-        <lastmod>2026-03-08</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://bys.marketing/services/it-hardware</loc>
-        <lastmod>2026-03-08</lastmod>
+        <lastmod>2026-04-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://bys.marketing/services/social</loc>
-        <lastmod>2026-03-08</lastmod>
+        <lastmod>2026-04-09</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://bys.marketing/services/media-production</loc>
+        <lastmod>2026-04-09</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://bys.marketing/services/it-hardware</loc>
+        <lastmod>2026-04-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://bys.marketing/services/content</loc>
-        <lastmod>2026-03-08</lastmod>
+        <lastmod>2026-04-09</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://bys.marketing/services/security</loc>
+        <lastmod>2026-04-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://bys.marketing/services/consultation</loc>
-        <lastmod>2026-03-08</lastmod>
+        <lastmod>2026-04-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
-
-    <!-- Blog -->
     <url>
         <loc>https://bys.marketing/blog</loc>
-        <lastmod>2026-03-08</lastmod>
+        <lastmod>2026-04-09</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.85</priority>
     </url>
     <url>
         <loc>https://bys.marketing/blog/ai-seo-generative-engine-optimization-2025</loc>
-        <lastmod>2026-03-05</lastmod>
+        <lastmod>2026-03-04</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.75</priority>
     </url>
     <url>
         <loc>https://bys.marketing/blog/how-to-optimize-for-perplexity-ai-search</loc>
-        <lastmod>2026-03-03</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.75</priority>
-    </url>
-    <url>
-        <loc>https://bys.marketing/blog/chatgpt-search-impact-on-website-traffic</loc>
         <lastmod>2026-03-02</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.75</priority>
     </url>
     <url>
+        <loc>https://bys.marketing/blog/chatgpt-search-impact-on-website-traffic</loc>
+        <lastmod>2026-03-01</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.75</priority>
+    </url>
+    <url>
         <loc>https://bys.marketing/blog/google-ai-overviews-sge-optimization-guide</loc>
-        <lastmod>2026-02-22</lastmod>
+        <lastmod>2026-02-21</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.75</priority>
     </url>
     <url>
-        <loc>https://bys.marketing/blog/ai-driven-website-personalization-2025</loc>
-        <lastmod>2026-01-15</lastmod>
+        <loc>https://bys.marketing/blog/ai-content-creation-vs-human-expertise-seo</loc>
+        <lastmod>2026-02-14</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.75</priority>
     </url>
     <url>
-        <loc>https://bys.marketing/blog/future-of-technical-seo-core-web-vitals</loc>
-        <lastmod>2026-01-05</lastmod>
+        <loc>https://bys.marketing/blog/how-to-survive-zero-click-searches</loc>
+        <lastmod>2026-02-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.75</priority>
     </url>
-
-    <!-- Portfolio -->
+    <url>
+        <loc>https://bys.marketing/blog/why-semantic-html-matter-for-ai-seo</loc>
+        <lastmod>2026-02-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.75</priority>
+    </url>
+    <url>
+        <loc>https://bys.marketing/blog/how-to-optimize-video-for-ai-search</loc>
+        <lastmod>2026-01-27</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.75</priority>
+    </url>
+    <url>
+        <loc>https://bys.marketing/blog/b2b-lead-generation-with-ai-agents</loc>
+        <lastmod>2026-01-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.75</priority>
+    </url>
+    <url>
+        <loc>https://bys.marketing/blog/the-death-of-informational-content-ai-seo</loc>
+        <lastmod>2026-01-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.75</priority>
+    </url>
     <url>
         <loc>https://bys.marketing/portfolio</loc>
-        <lastmod>2026-03-08</lastmod>
+        <lastmod>2026-04-09</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -214,1120 +231,557 @@
         <changefreq>monthly</changefreq>
         <priority>0.75</priority>
     </url>
-
-    <!-- Hyper-Localized Locations & Services -->
-
-    <!-- Localized: Okhla Industrial Area -->
-    <url>
-        <loc>https://bys.marketing/in/okhla-industrial-area</loc>
-        <lastmod>2026-03-08</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.9</priority>
-    </url>
-    <url>
-        <loc>https://bys.marketing/in/okhla-industrial-area/web-development</loc>
-        <lastmod>2026-03-08</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.85</priority>
-    </url>
-    <url>
-        <loc>https://bys.marketing/in/okhla-industrial-area/seo</loc>
-        <lastmod>2026-03-08</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://bys.marketing/in/okhla-industrial-area/digital-marketing</loc>
-        <lastmod>2026-03-08</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://bys.marketing/in/okhla-industrial-area/design</loc>
-        <lastmod>2026-03-08</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.75</priority>
-    </url>
-    <url>
-        <loc>https://bys.marketing/in/okhla-industrial-area/media-production</loc>
-        <lastmod>2026-03-08</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.75</priority>
-    </url>
-    <url>
-        <loc>https://bys.marketing/in/okhla-industrial-area/security</loc>
-        <lastmod>2026-03-08</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.75</priority>
-    </url>
-    <url>
-        <loc>https://bys.marketing/in/okhla-industrial-area/it-hardware</loc>
-        <lastmod>2026-03-08</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.75</priority>
-    </url>
-    <url>
-        <loc>https://bys.marketing/in/okhla-industrial-area/social</loc>
-        <lastmod>2026-03-08</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.75</priority>
-    </url>
-    <url>
-        <loc>https://bys.marketing/in/okhla-industrial-area/content</loc>
-        <lastmod>2026-03-08</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.75</priority>
-    </url>
-    <url>
-        <loc>https://bys.marketing/in/okhla-industrial-area/consultation</loc>
-        <lastmod>2026-03-08</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.75</priority>
-    </url>
-
-    <!-- Localized: Connaught Place -->
     <url>
         <loc>https://bys.marketing/in/connaught-place</loc>
-        <lastmod>2026-03-08</lastmod>
+        <lastmod>2026-04-09</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://bys.marketing/in/connaught-place/web-development</loc>
-        <lastmod>2026-03-08</lastmod>
+        <lastmod>2026-04-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.85</priority>
     </url>
     <url>
         <loc>https://bys.marketing/in/connaught-place/seo</loc>
-        <lastmod>2026-03-08</lastmod>
+        <lastmod>2026-04-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://bys.marketing/in/connaught-place/digital-marketing</loc>
-        <lastmod>2026-03-08</lastmod>
+        <lastmod>2026-04-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://bys.marketing/in/connaught-place/design</loc>
-        <lastmod>2026-03-08</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.75</priority>
-    </url>
-    <url>
-        <loc>https://bys.marketing/in/connaught-place/media-production</loc>
-        <lastmod>2026-03-08</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.75</priority>
-    </url>
-    <url>
-        <loc>https://bys.marketing/in/connaught-place/security</loc>
-        <lastmod>2026-03-08</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.75</priority>
-    </url>
-    <url>
-        <loc>https://bys.marketing/in/connaught-place/it-hardware</loc>
-        <lastmod>2026-03-08</lastmod>
+        <lastmod>2026-04-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.75</priority>
     </url>
     <url>
         <loc>https://bys.marketing/in/connaught-place/social</loc>
-        <lastmod>2026-03-08</lastmod>
+        <lastmod>2026-04-09</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.75</priority>
+    </url>
+    <url>
+        <loc>https://bys.marketing/in/connaught-place/media-production</loc>
+        <lastmod>2026-04-09</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.75</priority>
+    </url>
+    <url>
+        <loc>https://bys.marketing/in/connaught-place/it-hardware</loc>
+        <lastmod>2026-04-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.75</priority>
     </url>
     <url>
         <loc>https://bys.marketing/in/connaught-place/content</loc>
-        <lastmod>2026-03-08</lastmod>
+        <lastmod>2026-04-09</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.75</priority>
+    </url>
+    <url>
+        <loc>https://bys.marketing/in/connaught-place/security</loc>
+        <lastmod>2026-04-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.75</priority>
     </url>
     <url>
         <loc>https://bys.marketing/in/connaught-place/consultation</loc>
-        <lastmod>2026-03-08</lastmod>
+        <lastmod>2026-04-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.75</priority>
     </url>
-
-    <!-- Localized: Gurugram -->
     <url>
         <loc>https://bys.marketing/in/gurugram</loc>
-        <lastmod>2026-03-08</lastmod>
+        <lastmod>2026-04-09</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://bys.marketing/in/gurugram/web-development</loc>
-        <lastmod>2026-03-08</lastmod>
+        <lastmod>2026-04-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.85</priority>
     </url>
     <url>
         <loc>https://bys.marketing/in/gurugram/seo</loc>
-        <lastmod>2026-03-08</lastmod>
+        <lastmod>2026-04-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://bys.marketing/in/gurugram/digital-marketing</loc>
-        <lastmod>2026-03-08</lastmod>
+        <lastmod>2026-04-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://bys.marketing/in/gurugram/design</loc>
-        <lastmod>2026-03-08</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.75</priority>
-    </url>
-    <url>
-        <loc>https://bys.marketing/in/gurugram/media-production</loc>
-        <lastmod>2026-03-08</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.75</priority>
-    </url>
-    <url>
-        <loc>https://bys.marketing/in/gurugram/security</loc>
-        <lastmod>2026-03-08</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.75</priority>
-    </url>
-    <url>
-        <loc>https://bys.marketing/in/gurugram/it-hardware</loc>
-        <lastmod>2026-03-08</lastmod>
+        <lastmod>2026-04-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.75</priority>
     </url>
     <url>
         <loc>https://bys.marketing/in/gurugram/social</loc>
-        <lastmod>2026-03-08</lastmod>
+        <lastmod>2026-04-09</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.75</priority>
+    </url>
+    <url>
+        <loc>https://bys.marketing/in/gurugram/media-production</loc>
+        <lastmod>2026-04-09</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.75</priority>
+    </url>
+    <url>
+        <loc>https://bys.marketing/in/gurugram/it-hardware</loc>
+        <lastmod>2026-04-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.75</priority>
     </url>
     <url>
         <loc>https://bys.marketing/in/gurugram/content</loc>
-        <lastmod>2026-03-08</lastmod>
+        <lastmod>2026-04-09</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.75</priority>
+    </url>
+    <url>
+        <loc>https://bys.marketing/in/gurugram/security</loc>
+        <lastmod>2026-04-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.75</priority>
     </url>
     <url>
         <loc>https://bys.marketing/in/gurugram/consultation</loc>
-        <lastmod>2026-03-08</lastmod>
+        <lastmod>2026-04-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.75</priority>
     </url>
-
-    <!-- Localized: Noida -->
-    <url>
-        <loc>https://bys.marketing/in/noida</loc>
-        <lastmod>2026-03-08</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.9</priority>
-    </url>
-    <url>
-        <loc>https://bys.marketing/in/noida/web-development</loc>
-        <lastmod>2026-03-08</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.85</priority>
-    </url>
-    <url>
-        <loc>https://bys.marketing/in/noida/seo</loc>
-        <lastmod>2026-03-08</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://bys.marketing/in/noida/digital-marketing</loc>
-        <lastmod>2026-03-08</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://bys.marketing/in/noida/design</loc>
-        <lastmod>2026-03-08</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.75</priority>
-    </url>
-    <url>
-        <loc>https://bys.marketing/in/noida/media-production</loc>
-        <lastmod>2026-03-08</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.75</priority>
-    </url>
-    <url>
-        <loc>https://bys.marketing/in/noida/security</loc>
-        <lastmod>2026-03-08</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.75</priority>
-    </url>
-    <url>
-        <loc>https://bys.marketing/in/noida/it-hardware</loc>
-        <lastmod>2026-03-08</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.75</priority>
-    </url>
-    <url>
-        <loc>https://bys.marketing/in/noida/social</loc>
-        <lastmod>2026-03-08</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.75</priority>
-    </url>
-    <url>
-        <loc>https://bys.marketing/in/noida/content</loc>
-        <lastmod>2026-03-08</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.75</priority>
-    </url>
-    <url>
-        <loc>https://bys.marketing/in/noida/consultation</loc>
-        <lastmod>2026-03-08</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.75</priority>
-    </url>
-
-    <!-- Localized: Lajpat Nagar -->
     <url>
         <loc>https://bys.marketing/in/lajpat-nagar</loc>
-        <lastmod>2026-03-08</lastmod>
+        <lastmod>2026-04-09</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://bys.marketing/in/lajpat-nagar/web-development</loc>
-        <lastmod>2026-03-08</lastmod>
+        <lastmod>2026-04-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.85</priority>
     </url>
     <url>
         <loc>https://bys.marketing/in/lajpat-nagar/seo</loc>
-        <lastmod>2026-03-08</lastmod>
+        <lastmod>2026-04-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://bys.marketing/in/lajpat-nagar/digital-marketing</loc>
-        <lastmod>2026-03-08</lastmod>
+        <lastmod>2026-04-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://bys.marketing/in/lajpat-nagar/design</loc>
-        <lastmod>2026-03-08</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.75</priority>
-    </url>
-    <url>
-        <loc>https://bys.marketing/in/lajpat-nagar/media-production</loc>
-        <lastmod>2026-03-08</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.75</priority>
-    </url>
-    <url>
-        <loc>https://bys.marketing/in/lajpat-nagar/security</loc>
-        <lastmod>2026-03-08</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.75</priority>
-    </url>
-    <url>
-        <loc>https://bys.marketing/in/lajpat-nagar/it-hardware</loc>
-        <lastmod>2026-03-08</lastmod>
+        <lastmod>2026-04-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.75</priority>
     </url>
     <url>
         <loc>https://bys.marketing/in/lajpat-nagar/social</loc>
-        <lastmod>2026-03-08</lastmod>
+        <lastmod>2026-04-09</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.75</priority>
+    </url>
+    <url>
+        <loc>https://bys.marketing/in/lajpat-nagar/media-production</loc>
+        <lastmod>2026-04-09</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.75</priority>
+    </url>
+    <url>
+        <loc>https://bys.marketing/in/lajpat-nagar/it-hardware</loc>
+        <lastmod>2026-04-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.75</priority>
     </url>
     <url>
         <loc>https://bys.marketing/in/lajpat-nagar/content</loc>
-        <lastmod>2026-03-08</lastmod>
+        <lastmod>2026-04-09</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.75</priority>
+    </url>
+    <url>
+        <loc>https://bys.marketing/in/lajpat-nagar/security</loc>
+        <lastmod>2026-04-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.75</priority>
     </url>
     <url>
         <loc>https://bys.marketing/in/lajpat-nagar/consultation</loc>
-        <lastmod>2026-03-08</lastmod>
+        <lastmod>2026-04-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.75</priority>
     </url>
-
-    <!-- Localized: Faridabad -->
-    <url>
-        <loc>https://bys.marketing/in/faridabad</loc>
-        <lastmod>2026-03-08</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.9</priority>
-    </url>
-    <url>
-        <loc>https://bys.marketing/in/faridabad/web-development</loc>
-        <lastmod>2026-03-08</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.85</priority>
-    </url>
-    <url>
-        <loc>https://bys.marketing/in/faridabad/seo</loc>
-        <lastmod>2026-03-08</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://bys.marketing/in/faridabad/digital-marketing</loc>
-        <lastmod>2026-03-08</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://bys.marketing/in/faridabad/design</loc>
-        <lastmod>2026-03-08</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.75</priority>
-    </url>
-    <url>
-        <loc>https://bys.marketing/in/faridabad/media-production</loc>
-        <lastmod>2026-03-08</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.75</priority>
-    </url>
-    <url>
-        <loc>https://bys.marketing/in/faridabad/security</loc>
-        <lastmod>2026-03-08</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.75</priority>
-    </url>
-    <url>
-        <loc>https://bys.marketing/in/faridabad/it-hardware</loc>
-        <lastmod>2026-03-08</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.75</priority>
-    </url>
-    <url>
-        <loc>https://bys.marketing/in/faridabad/social</loc>
-        <lastmod>2026-03-08</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.75</priority>
-    </url>
-    <url>
-        <loc>https://bys.marketing/in/faridabad/content</loc>
-        <lastmod>2026-03-08</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.75</priority>
-    </url>
-    <url>
-        <loc>https://bys.marketing/in/faridabad/consultation</loc>
-        <lastmod>2026-03-08</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.75</priority>
-    </url>
-
-    <!-- Localized: Karol Bagh -->
     <url>
         <loc>https://bys.marketing/in/karol-bagh</loc>
-        <lastmod>2026-03-08</lastmod>
+        <lastmod>2026-04-09</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://bys.marketing/in/karol-bagh/web-development</loc>
-        <lastmod>2026-03-08</lastmod>
+        <lastmod>2026-04-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.85</priority>
     </url>
     <url>
         <loc>https://bys.marketing/in/karol-bagh/seo</loc>
-        <lastmod>2026-03-08</lastmod>
+        <lastmod>2026-04-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://bys.marketing/in/karol-bagh/digital-marketing</loc>
-        <lastmod>2026-03-08</lastmod>
+        <lastmod>2026-04-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://bys.marketing/in/karol-bagh/design</loc>
-        <lastmod>2026-03-08</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.75</priority>
-    </url>
-    <url>
-        <loc>https://bys.marketing/in/karol-bagh/media-production</loc>
-        <lastmod>2026-03-08</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.75</priority>
-    </url>
-    <url>
-        <loc>https://bys.marketing/in/karol-bagh/security</loc>
-        <lastmod>2026-03-08</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.75</priority>
-    </url>
-    <url>
-        <loc>https://bys.marketing/in/karol-bagh/it-hardware</loc>
-        <lastmod>2026-03-08</lastmod>
+        <lastmod>2026-04-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.75</priority>
     </url>
     <url>
         <loc>https://bys.marketing/in/karol-bagh/social</loc>
-        <lastmod>2026-03-08</lastmod>
+        <lastmod>2026-04-09</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.75</priority>
+    </url>
+    <url>
+        <loc>https://bys.marketing/in/karol-bagh/media-production</loc>
+        <lastmod>2026-04-09</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.75</priority>
+    </url>
+    <url>
+        <loc>https://bys.marketing/in/karol-bagh/it-hardware</loc>
+        <lastmod>2026-04-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.75</priority>
     </url>
     <url>
         <loc>https://bys.marketing/in/karol-bagh/content</loc>
-        <lastmod>2026-03-08</lastmod>
+        <lastmod>2026-04-09</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.75</priority>
+    </url>
+    <url>
+        <loc>https://bys.marketing/in/karol-bagh/security</loc>
+        <lastmod>2026-04-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.75</priority>
     </url>
     <url>
         <loc>https://bys.marketing/in/karol-bagh/consultation</loc>
-        <lastmod>2026-03-08</lastmod>
+        <lastmod>2026-04-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.75</priority>
     </url>
-
-    <!-- Localized: Chandni Chowk -->
     <url>
         <loc>https://bys.marketing/in/chandni-chowk</loc>
-        <lastmod>2026-03-08</lastmod>
+        <lastmod>2026-04-09</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://bys.marketing/in/chandni-chowk/web-development</loc>
-        <lastmod>2026-03-08</lastmod>
+        <lastmod>2026-04-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.85</priority>
     </url>
     <url>
         <loc>https://bys.marketing/in/chandni-chowk/seo</loc>
-        <lastmod>2026-03-08</lastmod>
+        <lastmod>2026-04-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://bys.marketing/in/chandni-chowk/digital-marketing</loc>
-        <lastmod>2026-03-08</lastmod>
+        <lastmod>2026-04-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://bys.marketing/in/chandni-chowk/design</loc>
-        <lastmod>2026-03-08</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.75</priority>
-    </url>
-    <url>
-        <loc>https://bys.marketing/in/chandni-chowk/media-production</loc>
-        <lastmod>2026-03-08</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.75</priority>
-    </url>
-    <url>
-        <loc>https://bys.marketing/in/chandni-chowk/security</loc>
-        <lastmod>2026-03-08</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.75</priority>
-    </url>
-    <url>
-        <loc>https://bys.marketing/in/chandni-chowk/it-hardware</loc>
-        <lastmod>2026-03-08</lastmod>
+        <lastmod>2026-04-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.75</priority>
     </url>
     <url>
         <loc>https://bys.marketing/in/chandni-chowk/social</loc>
-        <lastmod>2026-03-08</lastmod>
+        <lastmod>2026-04-09</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.75</priority>
+    </url>
+    <url>
+        <loc>https://bys.marketing/in/chandni-chowk/media-production</loc>
+        <lastmod>2026-04-09</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.75</priority>
+    </url>
+    <url>
+        <loc>https://bys.marketing/in/chandni-chowk/it-hardware</loc>
+        <lastmod>2026-04-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.75</priority>
     </url>
     <url>
         <loc>https://bys.marketing/in/chandni-chowk/content</loc>
-        <lastmod>2026-03-08</lastmod>
+        <lastmod>2026-04-09</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.75</priority>
+    </url>
+    <url>
+        <loc>https://bys.marketing/in/chandni-chowk/security</loc>
+        <lastmod>2026-04-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.75</priority>
     </url>
     <url>
         <loc>https://bys.marketing/in/chandni-chowk/consultation</loc>
-        <lastmod>2026-03-08</lastmod>
+        <lastmod>2026-04-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.75</priority>
     </url>
-
-    <!-- Localized: Nehru Place -->
     <url>
         <loc>https://bys.marketing/in/nehru-place</loc>
-        <lastmod>2026-03-08</lastmod>
+        <lastmod>2026-04-09</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://bys.marketing/in/nehru-place/web-development</loc>
-        <lastmod>2026-03-08</lastmod>
+        <lastmod>2026-04-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.85</priority>
     </url>
     <url>
         <loc>https://bys.marketing/in/nehru-place/seo</loc>
-        <lastmod>2026-03-08</lastmod>
+        <lastmod>2026-04-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://bys.marketing/in/nehru-place/digital-marketing</loc>
-        <lastmod>2026-03-08</lastmod>
+        <lastmod>2026-04-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://bys.marketing/in/nehru-place/design</loc>
-        <lastmod>2026-03-08</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.75</priority>
-    </url>
-    <url>
-        <loc>https://bys.marketing/in/nehru-place/media-production</loc>
-        <lastmod>2026-03-08</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.75</priority>
-    </url>
-    <url>
-        <loc>https://bys.marketing/in/nehru-place/security</loc>
-        <lastmod>2026-03-08</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.75</priority>
-    </url>
-    <url>
-        <loc>https://bys.marketing/in/nehru-place/it-hardware</loc>
-        <lastmod>2026-03-08</lastmod>
+        <lastmod>2026-04-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.75</priority>
     </url>
     <url>
         <loc>https://bys.marketing/in/nehru-place/social</loc>
-        <lastmod>2026-03-08</lastmod>
+        <lastmod>2026-04-09</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.75</priority>
+    </url>
+    <url>
+        <loc>https://bys.marketing/in/nehru-place/media-production</loc>
+        <lastmod>2026-04-09</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.75</priority>
+    </url>
+    <url>
+        <loc>https://bys.marketing/in/nehru-place/it-hardware</loc>
+        <lastmod>2026-04-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.75</priority>
     </url>
     <url>
         <loc>https://bys.marketing/in/nehru-place/content</loc>
-        <lastmod>2026-03-08</lastmod>
+        <lastmod>2026-04-09</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.75</priority>
+    </url>
+    <url>
+        <loc>https://bys.marketing/in/nehru-place/security</loc>
+        <lastmod>2026-04-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.75</priority>
     </url>
     <url>
         <loc>https://bys.marketing/in/nehru-place/consultation</loc>
-        <lastmod>2026-03-08</lastmod>
+        <lastmod>2026-04-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.75</priority>
     </url>
-
-    <!-- Localized: Rohini -->
     <url>
         <loc>https://bys.marketing/in/rohini</loc>
-        <lastmod>2026-03-08</lastmod>
+        <lastmod>2026-04-09</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://bys.marketing/in/rohini/web-development</loc>
-        <lastmod>2026-03-08</lastmod>
+        <lastmod>2026-04-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.85</priority>
     </url>
     <url>
         <loc>https://bys.marketing/in/rohini/seo</loc>
-        <lastmod>2026-03-08</lastmod>
+        <lastmod>2026-04-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://bys.marketing/in/rohini/digital-marketing</loc>
-        <lastmod>2026-03-08</lastmod>
+        <lastmod>2026-04-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://bys.marketing/in/rohini/design</loc>
-        <lastmod>2026-03-08</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.75</priority>
-    </url>
-    <url>
-        <loc>https://bys.marketing/in/rohini/media-production</loc>
-        <lastmod>2026-03-08</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.75</priority>
-    </url>
-    <url>
-        <loc>https://bys.marketing/in/rohini/security</loc>
-        <lastmod>2026-03-08</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.75</priority>
-    </url>
-    <url>
-        <loc>https://bys.marketing/in/rohini/it-hardware</loc>
-        <lastmod>2026-03-08</lastmod>
+        <lastmod>2026-04-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.75</priority>
     </url>
     <url>
         <loc>https://bys.marketing/in/rohini/social</loc>
-        <lastmod>2026-03-08</lastmod>
+        <lastmod>2026-04-09</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.75</priority>
+    </url>
+    <url>
+        <loc>https://bys.marketing/in/rohini/media-production</loc>
+        <lastmod>2026-04-09</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.75</priority>
+    </url>
+    <url>
+        <loc>https://bys.marketing/in/rohini/it-hardware</loc>
+        <lastmod>2026-04-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.75</priority>
     </url>
     <url>
         <loc>https://bys.marketing/in/rohini/content</loc>
-        <lastmod>2026-03-08</lastmod>
+        <lastmod>2026-04-09</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.75</priority>
+    </url>
+    <url>
+        <loc>https://bys.marketing/in/rohini/security</loc>
+        <lastmod>2026-04-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.75</priority>
     </url>
     <url>
         <loc>https://bys.marketing/in/rohini/consultation</loc>
-        <lastmod>2026-03-08</lastmod>
+        <lastmod>2026-04-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.75</priority>
     </url>
-
-    <!-- Localized: Dwarka -->
     <url>
         <loc>https://bys.marketing/in/dwarka</loc>
-        <lastmod>2026-03-08</lastmod>
+        <lastmod>2026-04-09</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://bys.marketing/in/dwarka/web-development</loc>
-        <lastmod>2026-03-08</lastmod>
+        <lastmod>2026-04-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.85</priority>
     </url>
     <url>
         <loc>https://bys.marketing/in/dwarka/seo</loc>
-        <lastmod>2026-03-08</lastmod>
+        <lastmod>2026-04-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://bys.marketing/in/dwarka/digital-marketing</loc>
-        <lastmod>2026-03-08</lastmod>
+        <lastmod>2026-04-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://bys.marketing/in/dwarka/design</loc>
-        <lastmod>2026-03-08</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.75</priority>
-    </url>
-    <url>
-        <loc>https://bys.marketing/in/dwarka/media-production</loc>
-        <lastmod>2026-03-08</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.75</priority>
-    </url>
-    <url>
-        <loc>https://bys.marketing/in/dwarka/security</loc>
-        <lastmod>2026-03-08</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.75</priority>
-    </url>
-    <url>
-        <loc>https://bys.marketing/in/dwarka/it-hardware</loc>
-        <lastmod>2026-03-08</lastmod>
+        <lastmod>2026-04-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.75</priority>
     </url>
     <url>
         <loc>https://bys.marketing/in/dwarka/social</loc>
-        <lastmod>2026-03-08</lastmod>
+        <lastmod>2026-04-09</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.75</priority>
+    </url>
+    <url>
+        <loc>https://bys.marketing/in/dwarka/media-production</loc>
+        <lastmod>2026-04-09</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.75</priority>
+    </url>
+    <url>
+        <loc>https://bys.marketing/in/dwarka/it-hardware</loc>
+        <lastmod>2026-04-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.75</priority>
     </url>
     <url>
         <loc>https://bys.marketing/in/dwarka/content</loc>
-        <lastmod>2026-03-08</lastmod>
+        <lastmod>2026-04-09</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.75</priority>
+    </url>
+    <url>
+        <loc>https://bys.marketing/in/dwarka/security</loc>
+        <lastmod>2026-04-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.75</priority>
     </url>
     <url>
         <loc>https://bys.marketing/in/dwarka/consultation</loc>
-        <lastmod>2026-03-08</lastmod>
+        <lastmod>2026-04-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.75</priority>
     </url>
-
-    <!-- Localized: Mumbai -->
-    <url>
-        <loc>https://bys.marketing/in/mumbai</loc>
-        <lastmod>2026-03-08</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.9</priority>
-    </url>
-    <url>
-        <loc>https://bys.marketing/in/mumbai/web-development</loc>
-        <lastmod>2026-03-08</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.85</priority>
-    </url>
-    <url>
-        <loc>https://bys.marketing/in/mumbai/seo</loc>
-        <lastmod>2026-03-08</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://bys.marketing/in/mumbai/digital-marketing</loc>
-        <lastmod>2026-03-08</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://bys.marketing/in/mumbai/design</loc>
-        <lastmod>2026-03-08</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.75</priority>
-    </url>
-    <url>
-        <loc>https://bys.marketing/in/mumbai/media-production</loc>
-        <lastmod>2026-03-08</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.75</priority>
-    </url>
-    <url>
-        <loc>https://bys.marketing/in/mumbai/security</loc>
-        <lastmod>2026-03-08</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.75</priority>
-    </url>
-    <url>
-        <loc>https://bys.marketing/in/mumbai/it-hardware</loc>
-        <lastmod>2026-03-08</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.75</priority>
-    </url>
-    <url>
-        <loc>https://bys.marketing/in/mumbai/social</loc>
-        <lastmod>2026-03-08</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.75</priority>
-    </url>
-    <url>
-        <loc>https://bys.marketing/in/mumbai/content</loc>
-        <lastmod>2026-03-08</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.75</priority>
-    </url>
-    <url>
-        <loc>https://bys.marketing/in/mumbai/consultation</loc>
-        <lastmod>2026-03-08</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.75</priority>
-    </url>
-
-    <!-- Localized: Bengaluru -->
-    <url>
-        <loc>https://bys.marketing/in/bengaluru</loc>
-        <lastmod>2026-03-08</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.9</priority>
-    </url>
-    <url>
-        <loc>https://bys.marketing/in/bengaluru/web-development</loc>
-        <lastmod>2026-03-08</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.85</priority>
-    </url>
-    <url>
-        <loc>https://bys.marketing/in/bengaluru/seo</loc>
-        <lastmod>2026-03-08</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://bys.marketing/in/bengaluru/digital-marketing</loc>
-        <lastmod>2026-03-08</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://bys.marketing/in/bengaluru/design</loc>
-        <lastmod>2026-03-08</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.75</priority>
-    </url>
-    <url>
-        <loc>https://bys.marketing/in/bengaluru/media-production</loc>
-        <lastmod>2026-03-08</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.75</priority>
-    </url>
-    <url>
-        <loc>https://bys.marketing/in/bengaluru/security</loc>
-        <lastmod>2026-03-08</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.75</priority>
-    </url>
-    <url>
-        <loc>https://bys.marketing/in/bengaluru/it-hardware</loc>
-        <lastmod>2026-03-08</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.75</priority>
-    </url>
-    <url>
-        <loc>https://bys.marketing/in/bengaluru/social</loc>
-        <lastmod>2026-03-08</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.75</priority>
-    </url>
-    <url>
-        <loc>https://bys.marketing/in/bengaluru/content</loc>
-        <lastmod>2026-03-08</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.75</priority>
-    </url>
-    <url>
-        <loc>https://bys.marketing/in/bengaluru/consultation</loc>
-        <lastmod>2026-03-08</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.75</priority>
-    </url>
-
-    <!-- Localized: Hyderabad -->
-    <url>
-        <loc>https://bys.marketing/in/hyderabad</loc>
-        <lastmod>2026-03-08</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.9</priority>
-    </url>
-    <url>
-        <loc>https://bys.marketing/in/hyderabad/web-development</loc>
-        <lastmod>2026-03-08</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.85</priority>
-    </url>
-    <url>
-        <loc>https://bys.marketing/in/hyderabad/seo</loc>
-        <lastmod>2026-03-08</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://bys.marketing/in/hyderabad/digital-marketing</loc>
-        <lastmod>2026-03-08</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://bys.marketing/in/hyderabad/design</loc>
-        <lastmod>2026-03-08</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.75</priority>
-    </url>
-    <url>
-        <loc>https://bys.marketing/in/hyderabad/media-production</loc>
-        <lastmod>2026-03-08</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.75</priority>
-    </url>
-    <url>
-        <loc>https://bys.marketing/in/hyderabad/security</loc>
-        <lastmod>2026-03-08</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.75</priority>
-    </url>
-    <url>
-        <loc>https://bys.marketing/in/hyderabad/it-hardware</loc>
-        <lastmod>2026-03-08</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.75</priority>
-    </url>
-    <url>
-        <loc>https://bys.marketing/in/hyderabad/social</loc>
-        <lastmod>2026-03-08</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.75</priority>
-    </url>
-    <url>
-        <loc>https://bys.marketing/in/hyderabad/content</loc>
-        <lastmod>2026-03-08</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.75</priority>
-    </url>
-    <url>
-        <loc>https://bys.marketing/in/hyderabad/consultation</loc>
-        <lastmod>2026-03-08</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.75</priority>
-    </url>
-
-    <!-- Localized: Pune -->
-    <url>
-        <loc>https://bys.marketing/in/pune</loc>
-        <lastmod>2026-03-08</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.9</priority>
-    </url>
-    <url>
-        <loc>https://bys.marketing/in/pune/web-development</loc>
-        <lastmod>2026-03-08</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.85</priority>
-    </url>
-    <url>
-        <loc>https://bys.marketing/in/pune/seo</loc>
-        <lastmod>2026-03-08</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://bys.marketing/in/pune/digital-marketing</loc>
-        <lastmod>2026-03-08</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://bys.marketing/in/pune/design</loc>
-        <lastmod>2026-03-08</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.75</priority>
-    </url>
-    <url>
-        <loc>https://bys.marketing/in/pune/media-production</loc>
-        <lastmod>2026-03-08</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.75</priority>
-    </url>
-    <url>
-        <loc>https://bys.marketing/in/pune/security</loc>
-        <lastmod>2026-03-08</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.75</priority>
-    </url>
-    <url>
-        <loc>https://bys.marketing/in/pune/it-hardware</loc>
-        <lastmod>2026-03-08</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.75</priority>
-    </url>
-    <url>
-        <loc>https://bys.marketing/in/pune/social</loc>
-        <lastmod>2026-03-08</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.75</priority>
-    </url>
-    <url>
-        <loc>https://bys.marketing/in/pune/content</loc>
-        <lastmod>2026-03-08</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.75</priority>
-    </url>
-    <url>
-        <loc>https://bys.marketing/in/pune/consultation</loc>
-        <lastmod>2026-03-08</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.75</priority>
-    </url>
-
-    <!-- Localized: Ahmedabad -->
-    <url>
-        <loc>https://bys.marketing/in/ahmedabad</loc>
-        <lastmod>2026-03-08</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.9</priority>
-    </url>
-    <url>
-        <loc>https://bys.marketing/in/ahmedabad/web-development</loc>
-        <lastmod>2026-03-08</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.85</priority>
-    </url>
-    <url>
-        <loc>https://bys.marketing/in/ahmedabad/seo</loc>
-        <lastmod>2026-03-08</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://bys.marketing/in/ahmedabad/digital-marketing</loc>
-        <lastmod>2026-03-08</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://bys.marketing/in/ahmedabad/design</loc>
-        <lastmod>2026-03-08</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.75</priority>
-    </url>
-    <url>
-        <loc>https://bys.marketing/in/ahmedabad/media-production</loc>
-        <lastmod>2026-03-08</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.75</priority>
-    </url>
-    <url>
-        <loc>https://bys.marketing/in/ahmedabad/security</loc>
-        <lastmod>2026-03-08</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.75</priority>
-    </url>
-    <url>
-        <loc>https://bys.marketing/in/ahmedabad/it-hardware</loc>
-        <lastmod>2026-03-08</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.75</priority>
-    </url>
-    <url>
-        <loc>https://bys.marketing/in/ahmedabad/social</loc>
-        <lastmod>2026-03-08</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.75</priority>
-    </url>
-    <url>
-        <loc>https://bys.marketing/in/ahmedabad/content</loc>
-        <lastmod>2026-03-08</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.75</priority>
-    </url>
-    <url>
-        <loc>https://bys.marketing/in/ahmedabad/consultation</loc>
-        <lastmod>2026-03-08</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.75</priority>
-    </url>
-
-    <!-- Operations & Legal -->
     <url>
         <loc>https://bys.marketing/offers</loc>
-        <lastmod>2026-03-08</lastmod>
+        <lastmod>2026-04-09</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
         <loc>https://bys.marketing/locations</loc>
-        <lastmod>2026-03-08</lastmod>
+        <lastmod>2026-04-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://bys.marketing/privacy</loc>
-        <lastmod>2026-03-08</lastmod>
+        <lastmod>2026-04-09</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.3</priority>
     </url>
     <url>
         <loc>https://bys.marketing/terms</loc>
-        <lastmod>2026-03-08</lastmod>
+        <lastmod>2026-04-09</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.3</priority>
     </url>
+
 </urlset>

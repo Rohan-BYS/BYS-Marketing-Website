@@ -12,11 +12,44 @@ import {
 } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import MultiStepIntake from '../components/MultiStepIntake';
+import SEOHead from '../components/SEOHead';
 import { useState } from 'react';
 
 export default function ServicesHub() {
     // const { toggleChatbot } = useBotContext(); // Uncomment if useBotContext is needed and imported
     const [isIntakeOpen, setIsIntakeOpen] = useState(false);
+
+    const servicesSchema = [
+        {
+            "@context": "https://schema.org",
+            "@type": "ItemList",
+            "name": "BYS Marketing Services",
+            "description": "Comprehensive digital services including web development, SEO, digital marketing, UI/UX design, media production, and IT solutions.",
+            "url": "https://bys.marketing/services",
+            "numberOfItems": 10,
+            "itemListElement": [
+                { "@type": "ListItem", "position": 1, "name": "Web Development", "url": "https://bys.marketing/services/web-development" },
+                { "@type": "ListItem", "position": 2, "name": "Digital Marketing", "url": "https://bys.marketing/services/digital-marketing" },
+                { "@type": "ListItem", "position": 3, "name": "SEO Optimization", "url": "https://bys.marketing/services/seo" },
+                { "@type": "ListItem", "position": 4, "name": "UI/UX Design", "url": "https://bys.marketing/services/design" },
+                { "@type": "ListItem", "position": 5, "name": "Media Production", "url": "https://bys.marketing/services/media-production" },
+                { "@type": "ListItem", "position": 6, "name": "Social Media Management", "url": "https://bys.marketing/services/social" },
+                { "@type": "ListItem", "position": 7, "name": "Content Strategy", "url": "https://bys.marketing/services/content" },
+                { "@type": "ListItem", "position": 8, "name": "IT Hardware", "url": "https://bys.marketing/services/it-hardware" },
+                { "@type": "ListItem", "position": 9, "name": "Cyber Security", "url": "https://bys.marketing/services/security" },
+                { "@type": "ListItem", "position": 10, "name": "Strategic Consultation", "url": "https://bys.marketing/services/consultation" }
+            ]
+        },
+        {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bys.marketing" },
+                { "@type": "ListItem", "position": 2, "name": "Services", "item": "https://bys.marketing/services" }
+            ]
+        }
+    ];
+
     const services = [
         { name: "Web\nDevelopment", icon: <Globe size={32} strokeWidth={1.5} />, path: "/services/web-development", desc: "Blazing-fast, mobile-first sites", price: "₹25K", badge: "Most Popular", cat: "dev" },
         { name: "Digital\nMarketing", icon: <Megaphone size={32} strokeWidth={1.5} />, path: "/services/digital-marketing", desc: "ROI-driven paid campaigns", price: "₹15K/mo", badge: "Hot", cat: "marketing" },
@@ -32,6 +65,13 @@ export default function ServicesHub() {
 
     return (
         <div className="fixed inset-0 w-full h-full overflow-hidden bg-background-light dark:bg-[#0a0a0a]">
+            <SEOHead
+                title="All Digital Services — Web Dev, SEO, Marketing & More"
+                description="Explore BYS Marketing's full-stack digital services: web development, SEO optimization, digital marketing, UI/UX design, media production, IT hardware, and cyber security. Starting from ₹8K/mo."
+                url="https://bys.marketing/services"
+                keywords="digital marketing services Delhi, web development services India, SEO services, UI UX design agency, media production, social media management, content strategy, IT hardware, cyber security, BYS Marketing services"
+                schema={servicesSchema}
+            />
             {/* Background Orbs */}
             <div className="fixed top-0 left-0 w-full h-full overflow-hidden -z-10 pointer-events-none">
                 <div className="absolute top-[-15%] left-[-10%] w-[50vw] h-[50vw] bg-purple-100 dark:bg-purple-900/20 rounded-full blur-[120px] opacity-40"></div>

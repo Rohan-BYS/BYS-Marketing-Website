@@ -8,6 +8,8 @@ interface SEOHeadProps {
     schema?: Record<string, any> | any[];
     keywords?: string;
     noIndex?: boolean;
+    geoRegion?: string;
+    geoPlacename?: string;
 }
 
 export default function SEOHead({
@@ -17,9 +19,10 @@ export default function SEOHead({
     image = 'https://bys.marketing/og-image.jpg',
     schema,
     keywords = 'Digital Marketing, Web Development, SEO, BYS Marketing',
-    noIndex = false
+    noIndex = false,
+    geoRegion = 'IN-DL',
+    geoPlacename = 'New Delhi'
 }: SEOHeadProps) {
-    console.log('SEOHead Rendering:', { title, description, keywords });
     const fullTitle = `${title} | BYS Marketing`;
 
     return (
@@ -28,6 +31,11 @@ export default function SEOHead({
             {noIndex && <meta data-rh="true" name="robots" content="noindex, nofollow" />}
             <meta data-rh="true" name="description" content={description} />
             <meta data-rh="true" name="keywords" content={keywords} />
+            <meta data-rh="true" name="application-name" content="BYS Marketing" />
+
+            {/* Geo / Local SEO signals */}
+            <meta data-rh="true" name="geo.region" content={geoRegion} />
+            <meta data-rh="true" name="geo.placename" content={geoPlacename} />
 
             {/* Open Graph / Facebook */}
             <meta data-rh="true" property="og:type" content="website" />
@@ -35,6 +43,8 @@ export default function SEOHead({
             <meta data-rh="true" property="og:title" content={fullTitle} />
             <meta data-rh="true" property="og:description" content={description} />
             <meta data-rh="true" property="og:image" content={image} />
+            <meta data-rh="true" property="og:site_name" content="BYS Marketing" />
+            <meta data-rh="true" property="og:locale" content="en_IN" />
 
             {/* Twitter */}
             <meta data-rh="true" property="twitter:card" content="summary_large_image" />
@@ -42,9 +52,12 @@ export default function SEOHead({
             <meta data-rh="true" property="twitter:title" content={fullTitle} />
             <meta data-rh="true" property="twitter:description" content={description} />
             <meta data-rh="true" property="twitter:image" content={image} />
+            <meta data-rh="true" property="twitter:site" content="@bysmarketing" />
 
-            {/* Canonical Link */}
-            <link data-rh="true" rel="canonical" href={window.location.href} />
+            {/* Canonical + hreflang */}
+            <link data-rh="true" rel="canonical" href={url} />
+            <link data-rh="true" rel="alternate" hrefLang="en-in" href={url} />
+            <link data-rh="true" rel="alternate" hrefLang="x-default" href={url} />
 
             {/* GEO / AI Search Optimization Guidelines */}
             <meta data-rh="true" name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
